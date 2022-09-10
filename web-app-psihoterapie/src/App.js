@@ -5,13 +5,13 @@ import DespreMinePage from './pages/DespreMine';
 import PsihozonePage from './pages/Psihozone';
 import ServiciiPage from './pages/Servicii';
 import ContactPage from './pages/Contact';
-import NavBar from './components/layout/NavBar/NavBar.js';
+import NavBar from './components/NavBar/NavBar.js';
 
 function App() {
   return (
     // current local domain: http://localhost:3000/
     <div>
-    <NavBar/>
+      <NavBar/>
       <Routes>
         <Route path='/' element={<AcasaPage/>}/>
         <Route path='/blog' element={<BlogPage/>}/>       
