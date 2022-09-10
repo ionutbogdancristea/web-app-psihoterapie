@@ -1,0 +1,10 @@
+mov: A280B5
+alb: FFFFFF
+gri (background): EDEDED
+Chenar articole: A280B5 - opcaity 20%
+
+Fonturi:Scris chenar (psihoterapie individuala si de grup) - MUSEO SLAB 500 
+			(Cucereste-ti propria viata) - MUSEO SLAB 100
+	Scris chenar articole (psihoterapia integrativa) - SOURCE SERIF VARIABLE LIGHT
+	Scris chenar articole (dezvoltare) - SOURCE SERIF VARIABLE EXTRALIGHT
+	Scris chenar final (telefon, mail, locatie) - MINION VARIABLE CONCEPT DISPLAY
