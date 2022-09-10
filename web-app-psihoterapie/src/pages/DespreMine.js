@@ -1,6 +1,6 @@
 function DespreMinePage() 
 {
-    return <div> DespreMine - work in progress </div>;
+    return <div> Despre Mine - work in progress </div>;
 }
 
 export default DespreMinePage;
