@@ -1,11 +1,10 @@
 .header {
     width: 100%;
-    height: 5rem;
+    height: 7rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #EDEDED;
-    padding: 0 10%;
 }
 
 .header ul {
@@ -24,6 +23,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
+    width: 14%;
 }
 
 .header a:hover,
@@ -32,17 +32,9 @@
     color: #A280B5;
 }
 
-.badge {
-    background-color: #EDEDED;
-    color: #EDEDED;
-    border-radius: 12px;
-    padding: 0 1rem;
-    margin-left: 0.5rem;
-}
-
 .image {
     height: auto; 
     width: auto; 
-    max-width: 150px; 
-    max-height: 150px;
+    max-width: 200px; 
+    max-height: 200px;
 }
