@@ -1,0 +1,8 @@
+background: A280B5 - 20% opacity
+
+Sa ne cunoastem - SOURCE SANS VARIABLE LIGHT
+scris descriere - SOURCE SANS VARIABLE EXTRALIGHT
+
+La fel si restul
+chenar jos - la fel ca la homepage
+butoane bara de sus/logo - la fel ca la homepage
