@@ -1,5 +1,9 @@
-import logo_symbol from './logo_symbol.png';
-// import fb from './fb.png'
+import logo_symbol from './media/logo_symbol.png';
+import fb from './media/fb.png'
+import insta from './media/insta.png'
+import wapp from './media/wapp.png'
+import mail from './media/mail.png'
+
 
 function NavBar() 
 {
@@ -14,30 +18,45 @@ function NavBar()
     <div className=" w-full md:block md:w-auto" id="navbar-default">
       <ul className="flex flex-col p-4 mt-4 bg-slate-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-gray-700">
         <li>
-          <a href="/" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+          <a href="/" className="block py-2 pr-4 pl-3 my-0 text-gray-700 hover:text-ana-purple md:border-0 md:p-0 md:my-4">
             Acasă</a>
         </li>
         <li>
-          <a href="/despre_mine" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+          <a href="/despre_mine" className="block py-2 pr-4 pl-3 my-0 text-gray-700 hover:text-ana-purple md:border-0 md:p-0 md:my-4">
             Despre mine</a>
         </li>
         <li>
-          <a href="/servicii" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+          <a href="/servicii" className="block py-2 pr-4 pl-3 my-0 text-gray-700 hover:text-ana-purple md:border-0 md:p-0 md:my-4">
             Servicii</a>
         </li>
         <li>
-          <a href="/psihozone" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+          <a href="/psihozone" className="block py-2 pr-4 pl-3 my-0 text-gray-700 hover:text-ana-purple md:border-0 md:p-0 md:my-4">
             Psihozone</a>
         </li>
         <li>
-          <a href="/contact" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+          <a href="/contact" className="block py-2 pr-4 pl-3 my-0 text-gray-700 hover:text-ana-purple md:border-0 md:p-0 md:my-4">
             Contact</a>
         </li>
-        {/* <li>
-          <a href="/contact" className="block py-2 pr-4 pl-3 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
-            <img src={fb}/>
+        <li>
+          <a href="/" className="block p-0 m-0 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+            <img src={fb} alt="Facebook logo"/>
           </a>
-        </li> */}
+        </li>
+        <li>
+          <a href="/" className="block p-0 m-0 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+            <img src={insta} alt="Instagram logo"/>
+          </a>
+        </li>
+        <li>
+          <a href="/" className="block p-0 m-0 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+            <img src={wapp} alt="Whatsapp logo"/>
+          </a>
+        </li>
+        <li>
+          <a href="/" className="block p-0 m-0 md:border-0 md:p-0 text-gray-700 hover:text-ana-purple ">
+            <img src={mail} alt="Mail logo"/>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
