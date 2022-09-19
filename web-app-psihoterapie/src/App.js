@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import AcasaPage from './pages/Acasa.js';
+import AcasaPage from './pages/Acasa/Acasa.js';
 import BlogPage from './pages/Blog';
 import DespreMinePage from './pages/DespreMine';
 import PsihozonePage from './pages/Psihozone';
