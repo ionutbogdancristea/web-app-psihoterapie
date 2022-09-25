@@ -1,28 +1,19 @@
-import chenar from './media/chenar.png'
+// import chenar from './media/chenar.png'
 import munte from './media/munte.jpg'
 
 function AcasaPage() 
 {
     return <div>
-            <figure class="relative flex flex-row">
-                <img class="max-w-full h-auto" src={chenar} alt="purple background"/>
-                <figcatpion class="absolute top-6 px-4 text-lg text-white">
-                    <div class="flex flex-row">
-                        <div>
-                            <p>Psihoterapie individuală și de grup</p>
-                            <p>Cucerește-ți propria viață!</p> 
-                        </div>
-                        <div>
-                            <img class="max-w-lg h-auto rounded-lg" src={munte} alt="view"></img>
-                        </div>
-                    </div>
-                </figcatpion>
-            </figure>
-            <div class="flex flex-row">
-            <div>01</div>
-            <div>02</div>
-            <div>03</div>
+        <div className="m-6 flex flex-row">
+            <div className="w-2/4 text-center m-auto md:p-14 p-2">
+                <div className="md:text-3xl text-left">Psihoterapie individuală și de grup</div>
+                <div className="text-left"> -------- </div>
+                <div className="text-left">Cucerește-ți propria viață!</div>
             </div>
+            <div className="w-2/4">
+                <img className="rounded-lg" src={munte} alt="view"></img>
+            </div>
+        </div>
 </div>;
 }
 
