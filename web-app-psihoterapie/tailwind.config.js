@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         'ana-purple': '#A280B5',
       }
+      // ,backgroundImage: {
+      //   'chenar': "url('/src/pages/Acasa/media/chenar.png')",
+       
+      // }
     },
   },
   plugins: [],

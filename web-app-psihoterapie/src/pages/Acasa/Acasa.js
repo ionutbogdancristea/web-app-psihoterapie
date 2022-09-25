@@ -1,10 +1,9 @@
-// import chenar from './media/chenar.png'
 import munte from './media/munte.jpg'
 
 function AcasaPage() 
 {
     return <div>
-        <div className="m-6 flex flex-row">
+        <div className="m-6 flex flex-row bg-cover bg-[url('/src/pages/Acasa/media/chenar.png')]"> 
             <div className="w-2/4 text-center m-auto md:p-14 p-2">
                 <div className="md:text-3xl text-left">Psihoterapie individuală și de grup</div>
                 <div className="text-left"> -------- </div>
