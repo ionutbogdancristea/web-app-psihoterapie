@@ -3,6 +3,9 @@ import fb from './media/fb.png'
 import insta from './media/insta.png'
 import wapp from './media/wapp.png'
 import mail from './media/mail.png'
+import nume from './media/Ana-Maria-Sfirca.png'
+import titlu from './media/Psihoterapeut-integrativ.png'
+
 
 
 function NavBar() 
@@ -13,7 +16,8 @@ function NavBar()
   <div className="container flex flex-wrap justify-between items-center mx-auto">
     <a href="/" className="flex items-center">
         <img src={logo_symbol} className="mr-3 h-6 sm:h-9" alt="Main Logo" />
-        <span className="self-center text-xl whitespace-nowrap text-ana-purple font-sans ">Ana Maria Sfircă</span>
+        <img src={nume} className="mr-3 h-6 sm:h-9" alt="Name" />
+        <img src={titlu} className="mr-3 h-6 sm:h-9" alt="Title" />
     </a>
     <div className=" w-full md:block md:w-auto" id="navbar-default">
       <ul className="flex flex-col p-4 mt-4 bg-slate-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-gray-700">
