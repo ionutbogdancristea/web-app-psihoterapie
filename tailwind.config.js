@@ -8,11 +8,11 @@ module.exports = {
       colors: {
         'ana-purple': '#A280B5',
         'ana-blue':'#2596be',
+      },
+      fontFamily: {
+        museoslab500:["museo-slab-500"],
+        museoslab100:["museo-slab-100"],
       }
-      // ,backgroundImage: {
-      //   'chenar': "url('/src/pages/Acasa/media/chenar.png')",
-       
-      // }
     },
   },
   plugins: [],
