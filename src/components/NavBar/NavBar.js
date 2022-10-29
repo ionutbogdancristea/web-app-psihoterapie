@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import HoverImage from "react-hover-image";
+
 import nume from './media/Ana-Maria-Sfirca.png';
 import titlu from './media/Psihoterapeut-integrativ.png';
 import psihozone from './media/psihozone.png';
@@ -11,15 +13,19 @@ import meniu_mobil_albastru from './media/meniu_mobil_albastru.png';
 
 import facebook_mov from './media/facebook_mov.png';
 import facebook_albastru from './media/facebook_albastru.png';
+import facebook_gri from './media/facebook_gri.png';
 
 import instagram_mov from './media/instagram_mov.png';
 import instagram_albastru from './media/instagram_albastru.png';
+import instagram_gri from './media/instagram_gri.png';
 
 import whatsapp_mov from './media/whatsapp_mov.png';
 import whatsapp_albastru from './media/whatsapp_albastru.png';
+import whatsapp_gri from './media/whatsapp_gri.png';
 
 import mail_mov from './media/mail_mov.png';
 import mail_albastru from './media/mail_albastru.png';
+import mail_gri from './media/mail_gri.png';
 
 export default function NavBar() 
 {
@@ -63,16 +69,16 @@ export default function NavBar()
         </li>
         <li className={"md:flex flex-row items-center justify-center md:space-x-2 " + (state ? "hidden":"flex")}>
           <a href="https://www.facebook.com/anamariasfirca.psiholog/" className="" target="_blank" rel="noopener noreferrer">
-            <img src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} className="w-3/4" alt="Facebook logo"/>
+            <HoverImage src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} hoverSrc={facebook_gri} className="w-3/4" alt="Facebook logo" />
           </a>
           <a href="https://www.instagram.com/anasfirca_psihozone/" className="" target="_blank" rel="noopener noreferrer">
-            <img src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} className="w-3/4" alt="Instagram logo"/>
+            <HoverImage src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} hoverSrc={instagram_gri} className="w-3/4" alt="Instagram logo" />
           </a>
           <a href="/" className="">
-            <img src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} className="w-3/4" alt="Whatsapp logo"/>
+            <HoverImage src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} hoverSrc={whatsapp_gri} className="w-3/4" alt="Whatsapp logo" />
           </a>
           <a href="mailto:anamariasfirca.psiholog@gmail.com" className="" target="_blank" rel="noopener noreferrer">
-            <img src={(current_url === "/psihozone" ? mail_albastru : mail_mov)} className="w-3/4" alt="Mail logo"/>
+            <HoverImage src={(current_url === "/psihozone" ? mail_albastru : mail_mov)} hoverSrc={mail_gri} className="w-3/4" alt="Mail logo" />
           </a>
         </li>
       </ul>
