@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-app-psihoterapie/static/css/main.d4f16eb7.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.61c913f4.js",
+    "main.js": "/web-app-psihoterapie/static/js/main.74ee23be.js",
     "static/media/ana.png": "/web-app-psihoterapie/static/media/ana.6e61299a9aa0b1e54dc4.png",
     "static/media/chenar.png": "/web-app-psihoterapie/static/media/chenar.1d6844ec99f6229be823.png",
     "static/media/Museo_Slab_500italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_500italic.6ad8e2407daeac2afac1.otf",
@@ -19,10 +19,10 @@
     "static/media/Museo_Slab_100.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100.bb96d7ebccf034466a7b.otf",
     "index.html": "/web-app-psihoterapie/index.html",
     "main.d4f16eb7.css.map": "/web-app-psihoterapie/static/css/main.d4f16eb7.css.map",
-    "main.61c913f4.js.map": "/web-app-psihoterapie/static/js/main.61c913f4.js.map"
+    "main.74ee23be.js.map": "/web-app-psihoterapie/static/js/main.74ee23be.js.map"
   },
   "entrypoints": [
     "static/css/main.d4f16eb7.css",
-    "static/js/main.61c913f4.js"
+    "static/js/main.74ee23be.js"
   ]
 }
