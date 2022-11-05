@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import HoverImage from "react-hover-image";
 
 import nume from './media/Ana-Maria-Sfirca.png';
 import titlu from './media/Psihoterapeut-integrativ.png';
@@ -69,16 +68,20 @@ export default function NavBar()
         </li>
         <li className={"md:flex flex-row items-center justify-center md:space-x-2 " + (state ? "hidden":"flex")}>
           <a href="https://www.facebook.com/anamariasfirca.psiholog/" className="" target="_blank" rel="noopener noreferrer">
-            <HoverImage src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} hoverSrc={facebook_gri} className="w-3/4" alt="Facebook logo" />
+            <img src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} onMouseOver={e => (e.currentTarget.src = facebook_gri)} 
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = facebook_albastru : e.currentTarget.src = facebook_mov)} className="w-3/4" alt="Facebook logo"/>
           </a>
           <a href="https://www.instagram.com/anasfirca_psihozone/" className="" target="_blank" rel="noopener noreferrer">
-            <HoverImage src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} hoverSrc={instagram_gri} className="w-3/4" alt="Instagram logo" />
+            <img src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} onMouseOver={e => (e.currentTarget.src = instagram_gri)} 
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = instagram_albastru : e.currentTarget.src = instagram_mov)} className="w-3/4" alt="Instagram logo"/>
           </a>
           <a href="/" className="">
-            <HoverImage src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} hoverSrc={whatsapp_gri} className="w-3/4" alt="Whatsapp logo" />
+            <img src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} onMouseOver={e => (e.currentTarget.src = whatsapp_gri)} 
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = whatsapp_albastru : e.currentTarget.src = whatsapp_mov)} className="w-3/4" alt="Whatsapp logo"/>
           </a>
           <a href="mailto:anamariasfirca.psiholog@gmail.com" className="" target="_blank" rel="noopener noreferrer">
-            <HoverImage src={(current_url === "/psihozone" ? mail_albastru : mail_mov)} hoverSrc={mail_gri} className="w-3/4" alt="Mail logo" />
+            <img src={(current_url === "/psihozone" ? mail_albastru : mail_mov)} onMouseOver={e => (e.currentTarget.src = mail_gri)} 
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = mail_albastru : e.currentTarget.src = mail_mov)} className="w-3/4" alt="Whatsapp logo"/>
           </a>
         </li>
       </ul>
