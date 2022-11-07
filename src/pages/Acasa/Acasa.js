@@ -8,7 +8,24 @@ function AcasaPage()
 {   
     const [state1, setState1] = useState(true);
     const toggle1=()=> {
+      console.log(state1);
       setState1(!state1);
+      console.log(state1);
+      if (!state2 && state1) {
+        setState2(!state2);
+      };
+      if (!state3 && state1) {
+        setState3(!state3);
+      };
+      if (!state4 && state1) {
+        setState4(!state4);
+      };
+      if (!state5 && state1) {
+        setState5(!state5);
+      };
+      if (!state6 && state1) {
+        setState6(!state6);
+      };     
     }
 
     const [state2, setState2] = useState(true);
@@ -51,11 +68,9 @@ function AcasaPage()
         </div>
         <ul className="flex flex-col md:flex-row space-x-4 mt-4 md:ml-8">
           <button className="" onClick={toggle1}>
-              <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+              <div className="flex flex-row flex-wrap items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
                 <img src={plus} className="m-1" alt="plus"/>
-                <div className="font-museoslab300">
-                  Ce este psihoterapia integrativă?
-                </div>
+                <div className="font-museoslab300">Ce este psihoterapia integrativă?</div>
               </div>
               <div className={"font-museoslab100 " + (state1 ? "hidden":"")}>
                 O abordare psihoterapeutică flexibilă, care înglobează principii, teorii și tehnici din mai
@@ -63,19 +78,22 @@ function AcasaPage()
                 psihic, ținând cont de toate dimensiunile ființei umane - de la nivelul biologic,
                 emoțional, spiritual și comportamental, până la cel relațional și social/cultural.
               </div>
-              <div>&nbsp;</div>
           </button>
 
           <button className="" onClick={toggle2}>
-          <div>Cui i se adresează?</div>
-          </button>
-          <div className={"" + (state2 ? "hidden":"")}>
+            <div className="flex flex-row flex-wrap items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+            <img src={plus} className="m-1" alt="plus"/>
+              <div>Cui i se adresează?</div>
+            </div>
+            <div className={"" + (state2 ? "hidden":"")}>
           Psihoterapia integrativă propune un model de intervenție personalizat, în funcție de
           nevoile, obiectivele și particularitățile fiecărui client. Prin urmare, ea este aplicabilă
           oricărei vârste și majorității afecțiunilor și dificultăților psihologice (i.e. stres,
           anxietate, depresie, traumă, adicții, tulburări comportamentale, tulburări alimentare,
           dificultăți de relaționare etc.).
           </div>
+          </button>
+
           <div>&nbsp;</div>
 
           <button className="" onClick={toggle3}>
