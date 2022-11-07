@@ -52,11 +52,13 @@ function AcasaPage()
         <ul className="flex flex-col md:flex-row space-x-4 mt-4 md:ml-8">
           <button className="" onClick={toggle1}>
               <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-                <img src={plus} alt="plus"/>
-                <div>Ce este psihoterapia integrativă?</div>
+                <img src={plus} className="m-1" alt="plus"/>
+                <div className="font-museoslab300">
+                  Ce este psihoterapia integrativă?
+                </div>
               </div>
-              <div className={"" + (state1 ? "hidden":"")}>
-                o abordare psihoterapeutică flexibilă, care înglobează principii, teorii și tehnici din mai
+              <div className={"font-museoslab100 " + (state1 ? "hidden":"")}>
+                O abordare psihoterapeutică flexibilă, care înglobează principii, teorii și tehnici din mai
                 multe școli terapeutice și care se preocupă de restabilirea și menținerea echilibrului
                 psihic, ținând cont de toate dimensiunile ființei umane - de la nivelul biologic,
                 emoțional, spiritual și comportamental, până la cel relațional și social/cultural.
