@@ -71,11 +71,11 @@ export default function NavBar()
         <li className={"md:flex flex-row items-center justify-center md:space-x-2 " + (state ? "hidden":"flex")}>
           <a href="https://www.facebook.com/anamariasfirca.psiholog/" className="" target="_blank" rel="noopener noreferrer">
             <img src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} onMouseOver={e => (e.currentTarget.src = facebook_gri)} 
-            onMouseOut={e => (current_url === "#/psihozone" ? e.currentTarget.src = facebook_albastru : e.currentTarget.src = facebook_mov)} className="w-3/4" alt="Facebook logo"/>
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = facebook_albastru : e.currentTarget.src = facebook_mov)} className="w-3/4" alt="Facebook logo"/>
           </a>
           <a href="https://www.instagram.com/anasfirca_psihozone/" className="" target="_blank" rel="noopener noreferrer">
             <img src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} onMouseOver={e => (e.currentTarget.src = instagram_gri)} 
-            onMouseOut={e => (current_url === "#/psihozone" ? e.currentTarget.src = instagram_albastru : e.currentTarget.src = instagram_mov)} className="w-3/4" alt="Instagram logo"/>
+            onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = instagram_albastru : e.currentTarget.src = instagram_mov)} className="w-3/4" alt="Instagram logo"/>
           </a>
           <a href="#/" className="">
             <img src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} onMouseOver={e => (e.currentTarget.src = whatsapp_gri)} 
