@@ -8,9 +8,8 @@ function AcasaPage()
 {   
     const [state1, setState1] = useState(true);
     const toggle1=()=> {
-      console.log(state1);
       setState1(!state1);
-      console.log(state1);
+
       if (!state2 && state1) {
         setState2(!state2);
       };
@@ -31,26 +30,106 @@ function AcasaPage()
     const [state2, setState2] = useState(true);
     const toggle2=()=> {
       setState2(!state2);
+
+      if (!state1 && state2) {
+        setState1(!state1);
+      };
+      if (!state3 && state2) {
+        setState3(!state3);
+      };
+      if (!state4 && state2) {
+        setState4(!state4);
+      };
+      if (!state5 && state2) {
+        setState5(!state5);
+      };
+      if (!state6 && state2) {
+        setState6(!state6);
+      };
     }
 
     const [state3, setState3] = useState(true);
     const toggle3=()=> {
       setState3(!state3);
+
+      if (!state1 && state3) {
+        setState1(!state1);
+      };
+      if (!state2 && state3) {
+        setState2(!state2);
+      };
+      if (!state4 && state3) {
+        setState4(!state4);
+      };
+      if (!state5 && state3) {
+        setState5(!state5);
+      };
+      if (!state6 && state3) {
+        setState6(!state6);
+      };
     }
 
     const [state4, setState4] = useState(true);
     const toggle4=()=> {
       setState4(!state4);
+
+      if (!state1 && state4) {
+        setState1(!state1);
+      };
+      if (!state2 && state4) {
+        setState2(!state2);
+      };
+      if (!state3 && state4) {
+        setState3(!state3);
+      };
+      if (!state5 && state4) {
+        setState5(!state5);
+      };
+      if (!state6 && state4) {
+        setState6(!state6);
+      };
     }
 
     const [state5, setState5] = useState(true);
     const toggle5=()=> {
       setState5(!state5);
+
+      if (!state1 && state5) {
+        setState1(!state1);
+      };
+      if (!state2 && state5) {
+        setState2(!state2);
+      };
+      if (!state3 && state5) {
+        setState3(!state3);
+      };
+      if (!state4 && state5) {
+        setState4(!state4);
+      };
+      if (!state6 && state5) {
+        setState6(!state6);
+      };
     }
 
     const [state6, setState6] = useState(true);
     const toggle6=()=> {
       setState6(!state6);
+
+      if (!state1 && state6) {
+        setState1(!state1);
+      };
+      if (!state2 && state6) {
+        setState2(!state2);
+      };
+      if (!state3 && state6) {
+        setState3(!state3);
+      };
+      if (!state4 && state6) {
+        setState4(!state4);
+      };
+      if (!state5 && state6) {
+        setState5(!state5);
+      };
     }
 
     return <div>
@@ -66,9 +145,9 @@ function AcasaPage()
             </div>
             <div>&nbsp;</div>
         </div>
-        <ul className="flex flex-col md:flex-row space-x-4 mt-4 md:ml-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4  mt-4 mx-3 md:mx-8">
           <button className="" onClick={toggle1}>
-              <div className="flex flex-row flex-wrap items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+              <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
                 <img src={plus} className="m-1" alt="plus"/>
                 <div className="font-museoslab300">Ce este psihoterapia integrativă?</div>
               </div>
@@ -81,11 +160,11 @@ function AcasaPage()
           </button>
 
           <button className="" onClick={toggle2}>
-            <div className="flex flex-row flex-wrap items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-            <img src={plus} className="m-1" alt="plus"/>
-              <div>Cui i se adresează?</div>
+            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+              <img src={plus} className="m-1" alt="plus"/>
+              <div className="font-museoslab300">Cui i se adresează?</div>
             </div>
-            <div className={"" + (state2 ? "hidden":"")}>
+            <div className={"font-museoslab100 " + (state2 ? "hidden":"")}>
           Psihoterapia integrativă propune un model de intervenție personalizat, în funcție de
           nevoile, obiectivele și particularitățile fiecărui client. Prin urmare, ea este aplicabilă
           oricărei vârste și majorității afecțiunilor și dificultăților psihologice (i.e. stres,
@@ -94,25 +173,27 @@ function AcasaPage()
           </div>
           </button>
 
-          <div>&nbsp;</div>
-
           <button className="" onClick={toggle3}>
-          <div>Cum se desfășoară prima sedință?</div>
-          </button>
-          <div className={"" + (state3 ? "hidden":"")}>
-          În cadrul primei ședințe, vom vorbi despre motivația din spatele deciziei tale de a
+            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+              <img src={plus} className="m-1" alt="plus"/>
+              <div className="font-museoslab300">Cum se desfășoară prima sedință?</div>
+            </div>
+            <div className={"font-museoslab100 " + (state3 ? "hidden":"")}>
+            În cadrul primei ședințe, vom vorbi despre motivația din spatele deciziei tale de a
           apela la un psihoterapeut. Totodată, în funcție de informațiile oferite și de nevoile pe
           care le ai, vom contura împreună câteva obiective de atins în procesul psihoterapiei. În
           tot acest timp, mă voi asigura de crearea unui spațiu sigur, în care să te simți ascultat,
           înțeles și încurajat să discuți în mod deschis despre orice te preocupă.
           </div>
-          <div>&nbsp;</div>
+          </button>
 
           <button className="" onClick={toggle4}>
-          <div>Care este diferența dintre psihoterapie și consiliere psihologică?</div>
-          </button>
-          <div className={"" + (state4 ? "hidden":"")}>
-          Psihoterapia este un proces mai amplu, mai profund și de durată mai lungă decât
+            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+              <img src={plus} className="m-1" alt="plus"/>
+              <div className="font-museoslab300">Care este diferența dintre psihoterapie și consiliere psihologică?</div>
+            </div>
+            <div className={"font-museoslab100 " + (state4 ? "hidden":"")}>
+            Psihoterapia este un proces mai amplu, mai profund și de durată mai lungă decât
           consilierea, în care pot fi abordate dificultăți psihologice complexe, care necesită mai
           mult timp pentru a putea fi explorate, înțelese, acceptate și vindecate. Consilierea se
           adresează, mai degrabă, unor situații și momente de criză sau de impas din prezent,
@@ -120,12 +201,14 @@ function AcasaPage()
           neașteptate, iar clientul dorește să învețe modalități prin care să poată gestiona mai
           bine situația cu care se confruntă.
           </div>
-          <div>&nbsp;</div>
+          </button>
 
           <button className="" onClick={toggle5}>
-          <div>Cât durează psihoterapia?</div>
-          </button>
-          <div className={"" + (state5 ? "hidden":"")}>
+          <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+            <img src={plus} className="m-1" alt="plus"/>
+            <div className="font-museoslab300">Cât durează psihoterapia?</div>
+          </div>
+          <div className={"font-museoslab100 " + (state5 ? "hidden":"")}>
           Durata psihoterapiei poate varia în funcție de mai mulți factori. Pe de o parte, sunt
           factorii ce țin de client (i.e. complexitatea dificultății cu care se confruntă acesta,
           gradul de implicare și motivația sa pentru schimbare, rezistența la schimbare), iar pe
@@ -135,12 +218,14 @@ function AcasaPage()
           propriile resurse de schimbare, măsura în care clientul simte că psihoterapeutul îl
           înțelege și îl poate ghida într-o direcție cu sens, care este în acord cu nevoile sale etc.
           </div>
-          <div>&nbsp;</div>
+          </button>
 
           <button className="" onClick={toggle6}>
-          <div>Cum știu că funcționează?</div>
-          </button>
-          <div className={"" + (state6 ? "hidden":"")}>
+          <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
+            <img src={plus} className="m-1" alt="plus"/>
+            <div className="font-museoslab300">Cum știu că funcționează?</div>
+          </div>
+          <div className={"font-museoslab100 " + (state6 ? "hidden":"")}>
           Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și
           intensității, însă iată câteva exemple:
           - recăpătarea vitalității, a energiei;
@@ -156,7 +241,9 @@ function AcasaPage()
           - mai multă încredere în sine și în propria capacitate de a face față situațiilor cu care te
           întâlnești.
           </div>
-        </ul>
+          </button>
+        </div>
+        
 </div>;
 }
 
