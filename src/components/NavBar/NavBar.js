@@ -45,7 +45,7 @@ export default function NavBar()
       <ul className="md:flex md:flex-row p-3 items-center justify-center">
         <li className="flex justify-center ml-10 md:m-0">
           <a href="#/" className="flex flex-row items-center space-x-2">
-            <img src={(current_url === "/psihozone" ? logo_psihozone: logo_ana)} className="w-10" alt="Main Logo"/>
+            <img src={(current_url === "/psihozone" ? logo_psihozone: logo_ana)} className="w-7" alt="Main Logo"/>
             <div className="flex flex-col">
               <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-5/6 md:w-3/4" alt="Name"/>
               {(current_url === "/psihozone" ? <></>:<img src={titlu} className="w-5/6 md:w-3/4" alt="Title"/>)}
@@ -77,7 +77,7 @@ export default function NavBar()
             <img src={(current_url === "/psihozone" ? instagram_albastru : instagram_mov)} onMouseOver={e => (e.currentTarget.src = instagram_gri)} 
             onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = instagram_albastru : e.currentTarget.src = instagram_mov)} className="w-3/4" alt="Instagram logo"/>
           </a>
-          <a href="#/" className="">
+          <a href="https://wa.me/+40771611430/?text=Buna%21%20As%20dori%20mai%20multe%20detalii%20despre%20programele%20de%20psihoterapie" target="_blank" rel="noopener noreferrer" className="">
             <img src={(current_url === "/psihozone" ? whatsapp_albastru : whatsapp_mov)} onMouseOver={e => (e.currentTarget.src = whatsapp_gri)} 
             onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = whatsapp_albastru : e.currentTarget.src = whatsapp_mov)} className="w-3/4" alt="Whatsapp logo"/>
           </a>
