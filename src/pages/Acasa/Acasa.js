@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 import acasa from './media/acasa.jpeg'
 import line from './media/white_line.png'
-import plus from './media/plus.png'
+import ExtendableButton from '../../components/ExtendableButton/ExtendableButton';
 
 function AcasaPage() 
 {   
@@ -146,87 +146,54 @@ function AcasaPage()
             <div>&nbsp;</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4  mt-4 mx-3 md:mx-8">
-          <button className="" onClick={toggle1}>
-              <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-                <img src={plus} className="m-1" alt="plus"/>
-                <div className="font-museoslab300">Ce este psihoterapia integrativă?</div>
-              </div>
-              <div className={"font-museoslab100 " + (state1 ? "hidden":"")}>
-                O abordare psihoterapeutică flexibilă, care înglobează principii, teorii și tehnici din mai
+
+          <ExtendableButton state_params={[state1, setState1]} toggle_param = {toggle1} 
+          question="Ce este psihoterapia integrativă?" 
+          answer="O abordare psihoterapeutică flexibilă, care înglobează principii, teorii și tehnici din mai
                 multe școli terapeutice și care se preocupă de restabilirea și menținerea echilibrului
                 psihic, ținând cont de toate dimensiunile ființei umane - de la nivelul biologic,
-                emoțional, spiritual și comportamental, până la cel relațional și social/cultural.
-              </div>
-          </button>
+                emoțional, spiritual și comportamental, până la cel relațional și social/cultural."/>
 
-          <button className="" onClick={toggle2}>
-            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-              <img src={plus} className="m-1" alt="plus"/>
-              <div className="font-museoslab300">Cui i se adresează?</div>
-            </div>
-            <div className={"font-museoslab100 " + (state2 ? "hidden":"")}>
-          Psihoterapia integrativă propune un model de intervenție personalizat, în funcție de
-          nevoile, obiectivele și particularitățile fiecărui client. Prin urmare, ea este aplicabilă
-          oricărei vârste și majorității afecțiunilor și dificultăților psihologice (i.e. stres,
-          anxietate, depresie, traumă, adicții, tulburări comportamentale, tulburări alimentare,
-          dificultăți de relaționare etc.).
-          </div>
-          </button>
+          <ExtendableButton state_params={[state2, setState2]} toggle_param = {toggle2} 
+          question="Cui i se adresează?"
+          answer="Psihoterapia integrativă propune un model de intervenție personalizat, în funcție de
+                  nevoile, obiectivele și particularitățile fiecărui client. Prin urmare, ea este aplicabilă
+                  oricărei vârste și majorității afecțiunilor și dificultăților psihologice (i.e. stres,
+                  anxietate, depresie, traumă, adicții, tulburări comportamentale, tulburări alimentare,
+                  dificultăți de relaționare etc."/>
 
-          <button className="" onClick={toggle3}>
-            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-              <img src={plus} className="m-1" alt="plus"/>
-              <div className="font-museoslab300">Cum se desfășoară prima sedință?</div>
-            </div>
-            <div className={"font-museoslab100 " + (state3 ? "hidden":"")}>
-            În cadrul primei ședințe, vom vorbi despre motivația din spatele deciziei tale de a
-          apela la un psihoterapeut. Totodată, în funcție de informațiile oferite și de nevoile pe
-          care le ai, vom contura împreună câteva obiective de atins în procesul psihoterapiei. În
-          tot acest timp, mă voi asigura de crearea unui spațiu sigur, în care să te simți ascultat,
-          înțeles și încurajat să discuți în mod deschis despre orice te preocupă.
-          </div>
-          </button>
+          <ExtendableButton state_params={[state3, setState3]} toggle_param = {toggle3} 
+          question="Cum se desfășoară prima sedință?"
+          answer="În cadrul primei ședințe, vom vorbi despre motivația din spatele deciziei tale de a
+                  apela la un psihoterapeut. Totodată, în funcție de informațiile oferite și de nevoile pe
+                  care le ai, vom contura împreună câteva obiective de atins în procesul psihoterapiei. În
+                  tot acest timp, mă voi asigura de crearea unui spațiu sigur, în care să te simți ascultat,
+                  înțeles și încurajat să discuți în mod deschis despre orice te preocupă."/>
 
-          <button className="" onClick={toggle4}>
-            <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-              <img src={plus} className="m-1" alt="plus"/>
-              <div className="font-museoslab300">Care este diferența dintre psihoterapie și consiliere psihologică?</div>
-            </div>
-            <div className={"font-museoslab100 " + (state4 ? "hidden":"")}>
-            Psihoterapia este un proces mai amplu, mai profund și de durată mai lungă decât
-          consilierea, în care pot fi abordate dificultăți psihologice complexe, care necesită mai
-          mult timp pentru a putea fi explorate, înțelese, acceptate și vindecate. Consilierea se
-          adresează, mai degrabă, unor situații și momente de criză sau de impas din prezent,
-          care au survenit în viața persoanei ca urmare a unor schimbări sau evenimente
-          neașteptate, iar clientul dorește să învețe modalități prin care să poată gestiona mai
-          bine situația cu care se confruntă.
-          </div>
-          </button>
+          <ExtendableButton state_params={[state4, setState4]} toggle_param = {toggle4} 
+          question="Care este diferența dintre psihoterapie și consiliere psihologică?"
+          answer="Psihoterapia este un proces mai amplu, mai profund și de durată mai lungă decât
+                  consilierea, în care pot fi abordate dificultăți psihologice complexe, care necesită mai
+                  mult timp pentru a putea fi explorate, înțelese, acceptate și vindecate. Consilierea se
+                  adresează, mai degrabă, unor situații și momente de criză sau de impas din prezent,
+                  care au survenit în viața persoanei ca urmare a unor schimbări sau evenimente
+                  neașteptate, iar clientul dorește să învețe modalități prin care să poată gestiona mai
+                  bine situația cu care se confruntă."/>
 
-          <button className="" onClick={toggle5}>
-          <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-            <img src={plus} className="m-1" alt="plus"/>
-            <div className="font-museoslab300">Cât durează psihoterapia?</div>
-          </div>
-          <div className={"font-museoslab100 " + (state5 ? "hidden":"")}>
-          Durata psihoterapiei poate varia în funcție de mai mulți factori. Pe de o parte, sunt
-          factorii ce țin de client (i.e. complexitatea dificultății cu care se confruntă acesta,
-          gradul de implicare și motivația sa pentru schimbare, rezistența la schimbare), iar pe
-          de altă parte, factorii ce țin de relația terapeutică (i.e. măsura în care psihoterapeutul
-          reușeste să surprindă cu acuratețe și să oglindească trăirile, emoțiile, nevoile și
-          gândurile persoanei; capacitatea psihoterapeutului de a-l ajuta pe client să-și acceseze
-          propriile resurse de schimbare, măsura în care clientul simte că psihoterapeutul îl
-          înțelege și îl poate ghida într-o direcție cu sens, care este în acord cu nevoile sale etc.
-          </div>
-          </button>
+          <ExtendableButton state_params={[state5, setState5]} toggle_param = {toggle5} 
+          question="Cât durează psihoterapia?"
+          answer="Durata psihoterapiei poate varia în funcție de mai mulți factori. Pe de o parte, sunt
+                  factorii ce țin de client (i.e. complexitatea dificultății cu care se confruntă acesta,
+                  gradul de implicare și motivația sa pentru schimbare, rezistența la schimbare), iar pe
+                  de altă parte, factorii ce țin de relația terapeutică (i.e. măsura în care psihoterapeutul
+                  reușeste să surprindă cu acuratețe și să oglindească trăirile, emoțiile, nevoile și
+                  gândurile persoanei; capacitatea psihoterapeutului de a-l ajuta pe client să-și acceseze
+                  propriile resurse de schimbare, măsura în care clientul simte că psihoterapeutul îl
+                  înțelege și îl poate ghida într-o direcție cu sens, care este în acord cu nevoile sale etc."/>
 
-          <button className="" onClick={toggle6}>
-          <div className="flex flex-row items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
-            <img src={plus} className="m-1" alt="plus"/>
-            <div className="font-museoslab300">Cum știu că funcționează?</div>
-          </div>
-          <div className={"font-museoslab100 " + (state6 ? "hidden":"")}>
-          Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și
+          <ExtendableButton state_params={[state6, setState6]} toggle_param = {toggle6} 
+          question="Cum știu că funcționează?"
+          answer="Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și
           intensității, însă iată câteva exemple:
           - recăpătarea vitalității, a energiei;
           - diminuarea stărilor de neliniște, de iritabilitate;
@@ -239,9 +206,7 @@ function AcasaPage()
           - creșterea sentimentul de speranță, de stare de bine;
           - înțelegerea propriului stil de atașament și cum influențează acesta relațiile cu ceilalți;
           - mai multă încredere în sine și în propria capacitate de a face față situațiilor cu care te
-          întâlnești.
-          </div>
-          </button>
+          întâlnești."/>
         </div>
         
 </div>;
