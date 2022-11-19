@@ -133,15 +133,15 @@ function AcasaPage()
     }
 
     return <div>
-        <div className="bg-[url('/src/pages/Acasa/media/chenar.png')] bg-no-repeat">
+        <div className="bg-[url('/src/pages/Acasa/media/chenar-mov.png')] bg-no-repeat">
             <div>&nbsp;</div>
-            <div className="flex flex-row items-center justify-center space-x-24"> 
+            <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24"> 
                 <div className="text-center">
                         <div className="text-left md:text-3xl font-museoslab300 text-white">Psihoterapie individuală și de grup</div>
                         <img src={line} alt="linie" className="w-16"/>
                         <div className="text-left md:text-2xl font-museoslab300 text-white">Cucerește-ți propria viață!</div>
                 </div>
-                <img className="rounded-lg object-contain w-64 hidden md:block" src={acasa} alt="view"></img>
+                <img className="rounded-lg object-contain w-56 md:w md:w-64 mt-4 md:mt-0" src={acasa} alt="view"></img>
             </div>
             <div>&nbsp;</div>
         </div>
@@ -193,20 +193,19 @@ function AcasaPage()
 
           <ExtendableButton state_params={[state6, setState6]} toggle_param = {toggle6} 
           question="Cum știu că funcționează?"
-          answer="Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și
-          intensității, însă iată câteva exemple:
-          - recăpătarea vitalității, a energiei;
-          - diminuarea stărilor de neliniște, de iritabilitate;
-          - o mai bună recunoaștere, înțelegere și autoreglare a emoțiilor și stărilor afective;
-          - diminuarea stresului, îmbunătățirea capacității de a face față stresului;
-          - dezvoltarea capacității de a recunoaște și de a gestiona gândurile și comportamentele
+          answer={[<div key="0" className="text-left">Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și intensității, însă iată câteva exemple:</div>
+          ,<li key="1" className="text-left">recăpătarea vitalității, a energiei;</li>
+          ,<li key="2" className="text-left">diminuarea stărilor de neliniște, de iritabilitate;</li>
+          ,<li key="3" className="text-left">o mai bună recunoaștere, înțelegere și autoreglare a emoțiilor și stărilor afective;</li>
+          ,<li key="4" className="text-left">diminuarea stresului, îmbunătățirea capacității de a face față stresului;</li>
+          ,<li key="5" className="text-left">dezvoltarea capacității de a recunoaște și de a gestiona gândurile și comportamentele
           disfuncționale (nesănătoase, care creează disconfort pentru tine sau pentru cei din jurul
-          tău);
-          - clarificarea sentimentelor, stărilor și gândurilor confuze, care se află în contradicție:
-          - creșterea sentimentul de speranță, de stare de bine;
-          - înțelegerea propriului stil de atașament și cum influențează acesta relațiile cu ceilalți;
-          - mai multă încredere în sine și în propria capacitate de a face față situațiilor cu care te
-          întâlnești."/>
+          tău);</li>
+          ,<li key="6" className="text-left">clarificarea sentimentelor, stărilor și gândurilor confuze, care se află în contradicție:</li>
+          ,<li key="7" className="text-left">creșterea sentimentul de speranță, de stare de bine;</li>
+          ,<li key="8" className="text-left">înțelegerea propriului stil de atașament și cum influențează acesta relațiile cu ceilalți;</li>
+          ,<li key="9" className="text-left">mai multă încredere în sine și în propria capacitate de a face față situațiilor cu care te
+          întâlnești.</li>]}/>
         </div>
         
 </div>;
