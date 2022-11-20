@@ -20,7 +20,7 @@ const Carousel = ({slides}) => {
   }
 
   return (
-    <section className="flex flex-row justify-center items-center m-2">
+    <section className="hidden md:flex md:flex-row justify-center items-center m-2">
         <img src={butonstanga} className="cursor-pointer ml-2" alt="stanga" onClick={prevSlide}/>
         <div>
         {CarouselData.map((slide, index) => {

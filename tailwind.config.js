@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'ana-purple': '#A280B5',
+        'ana-light-purple': '#bca3cb',
         'ana-blue':'#2596be',
       },
       fontFamily: {

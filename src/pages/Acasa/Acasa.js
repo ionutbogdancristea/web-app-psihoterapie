@@ -5,6 +5,7 @@ import line from './media/white_line.png'
 import ExtendableButton from '../../components/ExtendableButton/ExtendableButton';
 import Carousel from '../../components/Carousel/Carousel';
 import { CarouselData } from './CarouselData';
+import Contact from '../../components/Contact/Contact';
 
 function AcasaPage() 
 {   
@@ -209,7 +210,10 @@ function AcasaPage()
           ,<li key="9" className="text-left">mai multă încredere în sine și în propria capacitate de a face față situațiilor cu care te
           întâlnești.</li>]}/>
         </div>
+
         <Carousel slides={CarouselData}></Carousel>
+
+        <Contact/>
 </div>;
 }
 
