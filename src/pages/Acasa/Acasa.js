@@ -138,13 +138,16 @@ function AcasaPage()
     return <div>
         <div className="bg-[url('/src/pages/Acasa/media/chenar-mov.png')] bg-no-repeat">
             <div>&nbsp;</div>
-            <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24"> 
-                <div className="text-center">
-                        <div className="text-left md:text-3xl font-sourceserifvariableroman text-white">Psihoterapie individuală și de grup</div>
+            <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24 md:mt-8 md:mb-8"> 
+                <div className="text-left ml-[7%] md:ml-0">
+                        <div className="text-lg md:text-3xl font-sourceserifvariableroman text-white">
+                          <div>Psihoterapie individuală și de grup</div>
+                          <div>Ateliere de dezvoltare personală pentru copii și adolescenți</div>
+                        </div>
                         <img src={line} alt="linie" className="w-16"/>
-                        <div className="text-left md:text-2xl font-sourceserifvariableroman text-white">Cucerește-ți propria viață!</div>
+                        <div className="text-lg md:text-2xl font-sourceserifvariableroman text-white">Cucerește-ți propria viață!</div>
                 </div>
-                <img className="rounded-lg object-contain w-60 md:w md:w-64 mt-4 md:mt-0" src={acasa} alt="view"></img>
+                <img className="rounded-lg object-contain w-60 md:w md:w-72 mt-4 md:mt-0" src={acasa} alt="view"></img>
             </div>
             <div>&nbsp;</div>
         </div>
