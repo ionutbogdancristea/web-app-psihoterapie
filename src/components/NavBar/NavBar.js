@@ -57,15 +57,15 @@ export default function NavBar()
           </button>
         </li>
         <li className={"md:flex flex-col md:flex-row md:space-x-8 md:pr-16 md:mx-24 mb-6 md:mb-0 mt-2 " + (state ? "hidden":"")}>
-          <a href="#/" className={"flex items-center justify-center hover:overline text-lg font-museoslab500 text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/" ? 'text-ana-purple':'')}>
-              Acasa </a>
-          <a href="#/despre_mine" className={"flex items-center justify-center hover:overline text-lg font-museoslab500 text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/despre_mine" ? 'text-ana-purple':'')}>
+          <a href="#/" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/" ? 'text-ana-purple':'')}>
+              Acasă </a>
+          <a href="#/despre_mine" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/despre_mine" ? 'text-ana-purple':'')}>
             Despre mine </a>
-          <a href="#/servicii" className={"flex items-center justify-center hover:overline text-lg font-museoslab500 text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/servicii" ? 'text-ana-purple':'')}>
+          <a href="#/servicii" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/servicii" ? 'text-ana-purple':'')}>
             Servicii </a>
-          <a href="#/psihozone" className={"flex items-center justify-center hover:overline text-lg font-museoslab500 text-gray-600 hover:text-ana-blue active:text-blue-700 " + (current_url === "/psihozone" ? 'text-ana-blue':'')}>
+          <a href="#/psihozone" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-blue active:text-blue-700 " + (current_url === "/psihozone" ? 'text-ana-blue':'')}>
             Psihozone </a>
-          <a href="#/contact" className={"flex items-center justify-center hover:overline text-lg font-museoslab500 text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple':'')}>
+          <a href="#/contact" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple':'')}>
             Contact </a>
         </li>
         <li className={"md:flex flex-row items-center justify-center md:space-x-2 " + (state ? "hidden":"flex")}>

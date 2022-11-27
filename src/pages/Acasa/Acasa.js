@@ -140,11 +140,11 @@ function AcasaPage()
             <div>&nbsp;</div>
             <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24"> 
                 <div className="text-center">
-                        <div className="text-left md:text-3xl font-museoslab300 text-white">Psihoterapie individuală și de grup</div>
+                        <div className="text-left md:text-3xl font-sourceserifvariableroman text-white">Psihoterapie individuală și de grup</div>
                         <img src={line} alt="linie" className="w-16"/>
-                        <div className="text-left md:text-2xl font-museoslab300 text-white">Cucerește-ți propria viață!</div>
+                        <div className="text-left md:text-2xl font-sourceserifvariableroman text-white">Cucerește-ți propria viață!</div>
                 </div>
-                <img className="rounded-lg object-contain w-56 md:w md:w-64 mt-4 md:mt-0" src={acasa} alt="view"></img>
+                <img className="rounded-lg object-contain w-60 md:w md:w-64 mt-4 md:mt-0" src={acasa} alt="view"></img>
             </div>
             <div>&nbsp;</div>
         </div>
