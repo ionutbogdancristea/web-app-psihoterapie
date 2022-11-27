@@ -151,7 +151,7 @@ function AcasaPage()
             </div>
             <div>&nbsp;</div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4  mt-4 mx-3 md:mx-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4 mt-4 mx-3 md:mx-8">
 
           <ExtendableButton state_params={[state1, setState1]} toggle_param = {toggle1} 
           question="Ce este psihoterapia integrativă?" 
@@ -199,7 +199,7 @@ function AcasaPage()
 
           <ExtendableButton state_params={[state6, setState6]} toggle_param = {toggle6} 
           question="Cum știu că funcționează?"
-          answer={[<div key="0" className="text-left">Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și intensității, însă iată câteva exemple:</div>
+          answer={[<div key="0" className="">Semnele schimbării variază de la persoană la persoană și pot apărea în diverse forme și intensității, însă iată câteva exemple:</div>
           ,<li key="1" className="text-left">recăpătarea vitalității, a energiei;</li>
           ,<li key="2" className="text-left">diminuarea stărilor de neliniște, de iritabilitate;</li>
           ,<li key="3" className="text-left">o mai bună recunoaștere, înțelegere și autoreglare a emoțiilor și stărilor afective;</li>
