@@ -21,11 +21,14 @@ const Carousel = ({slides}) => {
 
   return (
     <section className="hidden md:flex md:flex-row justify-center items-center m-2">
-        <img src={butonstanga} className="cursor-pointer ml-2" alt="stanga" onClick={prevSlide}/>
+        {/* <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
+        Save Changes
+        </button> */}
+        <img src={butonstanga} className="cursor-pointer ml-2 animate-fade" alt="stanga" onClick={prevSlide}/>
         <div>
         {CarouselData.map((slide, index) => {
             return  (
-                  <div className={" " + index === current ? ' ':' '} key={index}> 
+                  <div className={"animate-fade " + index === current ? ' ':' '} key={index}> 
                   {index === current && 
                       <div className="flex flex-col md:flex-row justify-center items-center m-2"> 
                         <div className="font-museoslab100">
