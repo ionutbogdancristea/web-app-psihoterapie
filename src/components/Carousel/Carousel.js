@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
-import './styles.css'
+import './animation.css'
 import { CarouselData } from '../../pages/Acasa/CarouselData'
+import CarouselSlide from '../CarouselSlide/CarouselSlide'
 import butondreapta from './media/buton-articole-dreapta.png'
 import butonstanga from './media/buton-articole-stanga.png'
 
@@ -26,13 +27,14 @@ const Carousel = ({slides}) => {
         <div>
         {CarouselData.map((slide, index) => {
             return  (
-                  <div className={" " + index === current ? ' ':' '} key={index}> 
+                  <div key={index}> 
                   {index === current && 
                       <div className="flex flex-col md:flex-row justify-center items-center m-2 fade-in-slide"> 
-                        <div className="font-museoslab100">
-                          {slide.text}
-                        </div>
-                        <img src={slide.image} className="object-contain h-48 w-96" alt="slides"></img>
+                        <ul className="flex flex-row">
+                          <CarouselSlide slide={slide}/>
+                          <CarouselSlide slide={slide}/>
+                          <CarouselSlide slide={slide}/>
+                        </ul>
                       </div>
                   }
                   </div>               
