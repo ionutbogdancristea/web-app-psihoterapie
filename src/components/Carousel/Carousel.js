@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './styles.css'
 import { CarouselData } from '../../pages/Acasa/CarouselData'
 import butondreapta from './media/buton-articole-dreapta.png'
 import butonstanga from './media/buton-articole-stanga.png'
@@ -21,16 +22,13 @@ const Carousel = ({slides}) => {
 
   return (
     <section className="hidden md:flex md:flex-row justify-center items-center m-2">
-        {/* <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
-        Save Changes
-        </button> */}
-        <img src={butonstanga} className="cursor-pointer ml-2 animate-fade" alt="stanga" onClick={prevSlide}/>
+        <img src={butonstanga} className="cursor-pointer ml-2" alt="stanga" onClick={prevSlide}/>
         <div>
         {CarouselData.map((slide, index) => {
             return  (
-                  <div className={"animate-fade " + index === current ? ' ':' '} key={index}> 
+                  <div className={" " + index === current ? ' ':' '} key={index}> 
                   {index === current && 
-                      <div className="flex flex-col md:flex-row justify-center items-center m-2"> 
+                      <div className="flex flex-col md:flex-row justify-center items-center m-2 fade-in-slide"> 
                         <div className="font-museoslab100">
                           {slide.text}
                         </div>
