@@ -1,13 +1,24 @@
 import chenar from './media/chenar-articole.png'
+import multe from './media/mai-mult.png'
+import linie from './media/linie-la-card-articole.png'
 
-function CarouselSlide({slide}) 
+function CarouselSlide({image, alt, text, title}) 
 {
-    return <li className="">
-    <img src={chenar}></img>
-    <div className="font-sourceserifvariableroman text-sm">
-      {slide.text}
-    </div>
-    <img src={slide.image} className="object-contain h-48 w-96" alt="slides"></img>
+    return <li className="relative">
+      <div className="absolute m-10 mt-14">
+        <img src={image} className="object-contain scale-150" alt={alt}/>
+        <img src={linie} className="mx-auto mb-3" alt="linie la card articole"/>
+        <div className="font-sourceserifvariableroman mb-2 text-xl text-center"> 
+          {title} 
+        </div>
+        <div className="font-sourceserifvariableroman text-sm justify-center">
+          {text}
+        </div>   
+        <a href="/">
+        <img src={multe} alt="mai mult"/>   
+        </a>
+      </div>
+      <img src={chenar} alt="chenar"></img>
   </li>;
 }
 

@@ -5,7 +5,7 @@ import mail from './media/mail.png'
 
 function Contact() 
 {
-    return <div className="bg-ana-light-purple relative flex flex-col"> 
+    return <div className="bg-ana-light-purple relative bottom-0 flex flex-col"> 
     <div className="font-sourceserifvariableroman md:text-xl text-white text-center">Contact</div>
     <div className="flex flex-row text-center pl-[18%] md:pl-[44%]">
         <img className="w-4 mr-2" src={telefon} alt="telefon"/>

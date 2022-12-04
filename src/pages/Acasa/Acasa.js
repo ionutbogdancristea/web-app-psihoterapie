@@ -4,7 +4,7 @@ import acasa from './media/acasa.jpeg'
 import line from './media/white_line.png'
 import ExtendableButton from '../../components/ExtendableButton/ExtendableButton';
 import Carousel from '../../components/Carousel/Carousel';
-import { CarouselData } from './CarouselData';
+import { CarouselData, CarouselDataMobile } from './CarouselData';
 import Contact from '../../components/Contact/Contact';
 
 function AcasaPage() 
@@ -151,7 +151,7 @@ function AcasaPage()
             </div>
             <div>&nbsp;</div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4 mt-4 mx-3 md:mx-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4 mt-8 mx-3 md:mx-8">
 
           <ExtendableButton state_params={[state1, setState1]} toggle_param = {toggle1} 
           question="Ce este psihoterapia integrativă?" 
@@ -214,7 +214,7 @@ function AcasaPage()
           întâlnești.</li>]}/>
         </div>
 
-        <Carousel slides={CarouselData}></Carousel>
+        <Carousel slides={CarouselData} slidesMobile={CarouselDataMobile}></Carousel>
 
         <Contact/>
 </div>;
