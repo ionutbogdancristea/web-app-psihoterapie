@@ -4,7 +4,7 @@ import acasa from './media/acasa.jpeg'
 import line from './media/white_line.png'
 import ExtendableButton from '../../components/ExtendableButton/ExtendableButton';
 import Carousel from '../../components/Carousel/Carousel';
-import { CarouselData, CarouselDataMobile } from './CarouselData';
+import { CarouselData } from './CarouselData';
 import Contact from '../../components/Contact/Contact';
 
 function AcasaPage() 
@@ -214,7 +214,7 @@ function AcasaPage()
           întâlnești.</li>]}/>
         </div>
 
-        <Carousel slides={CarouselData} slidesMobile={CarouselDataMobile}></Carousel>
+        <Carousel items={CarouselData}></Carousel>
 
         <Contact/>
 </div>;
