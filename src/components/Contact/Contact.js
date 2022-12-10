@@ -21,7 +21,7 @@ function Contact()
     </div>
     <div className="flex flex-row items-center pl-[18%] md:pl-[44%]">
         <img className="w-4 mr-2" src={mail} alt="mail"/>
-        <div className="font-sourceserifvariableroman">anamariasfirca@gmail.com</div>
+        <div className="font-sourceserifvariableroman">anamariasfirca.psiholog@gmail.com</div>
     </div>
     </div>;
 }
