@@ -138,6 +138,8 @@ function AcasaPage()
     return <div>
         <div className="bg-[url('/src/pages/Acasa/media/chenar-mov.png')] bg-no-repeat">
             <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
             <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24 md:mt-8 md:mb-8"> 
                 <div className="text-left ml-[7%] md:ml-0">
                         <div className="text-lg md:text-3xl font-sourceserifvariableroman text-white">
@@ -149,6 +151,8 @@ function AcasaPage()
                 </div>
                 <img className="rounded-lg object-contain w-60 md:w md:w-72 mt-4 md:mt-0" src={acasa} alt="view"></img>
             </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
             <div>&nbsp;</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4 mt-8 mx-3 md:mx-8">
