@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './noBlueHighlight.css'
 import butondreapta from './media/buton-articole-dreapta.png'
 import butonstanga from './media/buton-articole-stanga.png'
 import CarouselSlide from '../CarouselSlide/CarouselSlide'
@@ -22,7 +23,7 @@ const Carousel = ({items}) => {
     {/* web version: */}
     <div className="hidden md:flex md:flex-row justify-center items-center m-2 list-none">
         <div className="flex flex-row">
-        <img src={butonstanga} className="cursor-pointer object-none" alt="stanga" onClick={() => { handlePreviousClick()}}/>
+        <img src={butonstanga} className="cursor-pointer object-none noBlueHighlight" alt="stanga" onClick={() => { handlePreviousClick()}}/>
         {visibleItems.map((item, index) => {
             return  (
                   <div className="" key={index}> 
@@ -34,14 +35,14 @@ const Carousel = ({items}) => {
                   </div>               
             )
         })}
-        <img src={butondreapta} className="cursor-pointer object-none" alt="dreapta" onClick={handleNextClick}/>
+        <img src={butondreapta} className="cursor-pointer object-none noBlueHighlight" alt="dreapta" onClick={handleNextClick}/>
         </div>
     </div>
 
     {/* mobile version: */}
     <div className=" md:hidden justify-center items-center m-2 list-none">
         <div className="flex flex-row">
-        <img src={butonstanga} className="cursor-pointer w-14 object-scale-down" alt="stanga" onClick={() => { handlePreviousClick()}}/>
+        <img src={butonstanga} className="cursor-pointer w-14 object-scale-down noBlueHighlight" alt="stanga" onClick={() => { handlePreviousClick()}}/>
         {items.map((item, index) => {
             return  (
                   <div className="" key={index}> 
@@ -53,7 +54,7 @@ const Carousel = ({items}) => {
                   </div>               
             )
         })}
-        <img src={butondreapta} className="cursor-pointer w-14 object-scale-down" alt="dreapta" onClick={handleNextClick}/>
+        <img src={butondreapta} className="cursor-pointer w-14 object-scale-down noBlueHighlight" alt="dreapta" onClick={handleNextClick}/>
         </div>
     </div>
     </div>

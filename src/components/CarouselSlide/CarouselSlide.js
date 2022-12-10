@@ -1,3 +1,4 @@
+import './noBlueHighlight.css'
 import chenar from './media/chenar-articole.png'
 import multe from './media/mai-mult.png'
 import linie from './media/linie-la-card-articole.png'
@@ -14,7 +15,7 @@ function CarouselSlide({image, alt, text, title})
         <div className="font-sourceserifvariableroman text-sm justify-center">
           {text}
         </div>   
-        <a href="/">
+        <a href="/" className="noBlueHighlight">
         <img src={multe} className="mt-1" alt="mai mult"/>   
         </a>
       </div>

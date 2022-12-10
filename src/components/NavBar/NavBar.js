@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import { useLocation } from 'react-router-dom';
+import './noBlueHighlight.css'
 
 import nume from './media/Ana-Maria-Sfirca.png';
 import titlu from './media/Psihoterapeut-integrativ.png';
@@ -31,7 +32,6 @@ export default function NavBar()
 {
   // variable used to color the current page's name in pink:
   let current_url = useLocation().pathname;
-  console.log(current_url)
 
   // objects used in the Menu button for mobile
   const [state, setState] = useState(true);
@@ -52,11 +52,11 @@ export default function NavBar()
             </div>
           </a>
           {/* button for mobile only menu */}
-          <button className="flex items-center justify-center pr-6 md:hidden md:cursor-not-allowed" onClick={toggle}>
+          <button className="flex items-center justify-center pr-6 md:hidden md:cursor-not-allowed noBlueHighlight" onClick={toggle}>
             <img src={(current_url === "/psihozone" ? meniu_mobil_albastru : meniu_mobil_mov)} className="w-10" alt="Menu Icon"/>
           </button>
         </li>
-        <li className={"md:flex flex-col md:flex-row md:space-x-8 md:pr-16 md:mx-24 mb-6 md:mb-0 mt-2 " + (state ? "hidden":"")}>
+        <li className={"md:flex flex-col md:flex-row md:space-x-8 md:pr-16 md:mx-24 mb-6 md:mb-0 mt-2 noBlueHighlight " + (state ? "hidden":"")}>
           <a href="#/" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/" ? 'text-ana-purple':'')}>
               Acasă </a>
           <a href="#/despre_mine" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/despre_mine" ? 'text-ana-purple':'')}>

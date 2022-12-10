@@ -1,0 +1,5 @@
+.noBlueHighlight
+{
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}

@@ -1,8 +1,9 @@
 import plus from './media/plus.png';
+import './noBlueHighlight.css'
 
 function ExtendableButton(props) 
 {
-    return <button className="" onClick={props.toggle_param}>
+    return <button className="noBlueHighlight" onClick={props.toggle_param}>
         <div className="flex flex-row items-center text-left md:justify-center py-2.5 px-5 mr-2 mb-2 font-medium text-slate-700 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-ana-purple focus:z-10 focus:ring-4 focus:ring-gray-200">
           <img src={plus} className="m-1" alt="plus"/>
           <div className="font-sourceserifvariableroman md:text-lg">{props.question}</div>
