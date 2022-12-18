@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import AcasaPage from './pages/Acasa/Acasa.js';
 // import BlogPage from './pages/Blog';
 import DespreMinePage from './pages/DespreMine/DespreMine';
-import PsihozonePage from './pages/Psihozone';
+import PsihozonePage from './pages/Psihozone/Psihozone';
 import ServiciiPage from './pages/Servicii/Servicii';
 import ContactPage from './pages/Contact';
 import NavBar from './components/NavBar/NavBar.js';
