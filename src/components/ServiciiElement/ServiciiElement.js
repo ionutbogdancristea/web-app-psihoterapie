@@ -10,11 +10,11 @@ function ServiciiElement({items})
                 <div className={(index % 2 === 0 ? "md:flex md:justify-between " : "md:flex md:flex-row-reverse md:justify-between ")+ "md:space-x-6 p-6"}>
                     <img src={item.image} alt={item.alt} className="h-48"></img>
                     <div className="flex flex-col">
-                        <div className='content-left'>
-                            <div>
+                        <div className='text-center'>
+                            <div className="text-xl text-ana-purple">
                                 {item.title}
                             </div>
-                            <img src={linie} alt="linie" className="mx-auto"/>
+                            <img src={linie} alt="linie max-w-xs" className="mx-auto"/>
                         </div>
                         <div>
                             {item.text}
