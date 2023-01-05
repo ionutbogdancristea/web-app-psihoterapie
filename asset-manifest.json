@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.0f9f6958.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.0c844c65.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.4dde33dd.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.bf38f1ec.js",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.1ac0c22bae3cad6a14b9.png",
     "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.3f65f0b07749af03e9be.png",
     "static/media/carusel-poza-4.png": "/web-app-psihoterapie/static/media/carusel-poza-4.e34f3145f6f690c7bda2.png",
     "static/media/ana.png": "/web-app-psihoterapie/static/media/ana.6e61299a9aa0b1e54dc4.png",
+    "static/media/fundal-servicii_0.png": "/web-app-psihoterapie/static/media/fundal-servicii_0.fa72465c9f44b8d7516f.png",
     "static/media/fundal-servicii.png": "/web-app-psihoterapie/static/media/fundal-servicii.cd5c226609a023f07314.png",
+    "static/media/fundal.png": "/web-app-psihoterapie/static/media/fundal.96264940ea4e78ea2594.png",
     "static/media/acasa.jpeg": "/web-app-psihoterapie/static/media/acasa.48d94a2b8a9407af49cc.jpeg",
     "static/media/chenar-mov.png": "/web-app-psihoterapie/static/media/chenar-mov.51971fba43bf656263ba.png",
     "static/media/Museo_Slab_500italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_500italic.6ad8e2407daeac2afac1.otf",
@@ -23,11 +25,11 @@
     "static/media/Museo_Slab_900.otf": "/web-app-psihoterapie/static/media/Museo_Slab_900.dba106fd30e49723b78a.otf",
     "static/media/Museo_Slab_100.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100.bb96d7ebccf034466a7b.otf",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.0f9f6958.css.map": "/web-app-psihoterapie/static/css/main.0f9f6958.css.map",
-    "main.0c844c65.js.map": "/web-app-psihoterapie/static/js/main.0c844c65.js.map"
+    "main.4dde33dd.css.map": "/web-app-psihoterapie/static/css/main.4dde33dd.css.map",
+    "main.bf38f1ec.js.map": "/web-app-psihoterapie/static/js/main.bf38f1ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f9f6958.css",
-    "static/js/main.0c844c65.js"
+    "static/css/main.4dde33dd.css",
+    "static/js/main.bf38f1ec.js"
   ]
 }
