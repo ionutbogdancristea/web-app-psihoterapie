@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './noBlueHighlight.css'
-import butondreapta from './media/buton-articole-dreapta.png'
-import butonstanga from './media/buton-articole-stanga.png'
+import butondreapta from './media/buton-mov-dreapta.png'
+import butonstanga from './media/buton-mov-stanga.png'
 import CarouselSlide from '../CarouselSlide/CarouselSlide'
 
 const Carousel = ({items}) => {
