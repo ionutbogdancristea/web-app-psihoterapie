@@ -1,7 +1,7 @@
 import './noBlueHighlight.css'
 import chenar from './media/chenar-articole.png'
 import multe from './media/mai-mult.png'
-import linie from './media/linie-chenar.png'
+import linie from '../../media/linie-chenar.png'
 
 function CarouselSlide({image, alt, text, title}) 
 {

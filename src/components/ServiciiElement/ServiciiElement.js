@@ -1,4 +1,4 @@
-import linie from './media/linie-chenar.png'
+import linie from '../../media/linie-chenar.png'
 
 function ServiciiElement({items}) 
 {
