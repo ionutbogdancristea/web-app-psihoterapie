@@ -64,7 +64,7 @@ export default function NavBar()
           <a href="#/servicii" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/servicii" ? 'text-ana-purple':'')}>
             Servicii </a>
           <a href="#/psihozone" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-blue active:text-blue-700 " + (current_url === "/psihozone" ? 'text-ana-blue':'')}>
-            Psihozone </a>
+            PsihoZone </a>
           <a href="#/contact" className={"flex items-center justify-center decoration-wavy text-xl font-medium font-sourceserifvariableroman text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple':'')}>
             Contact </a>
         </li>
