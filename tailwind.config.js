@@ -25,6 +25,9 @@ module.exports = {
         museoslab1000italic:["museo-slab-1000-italic"],
         sourceserifprolight:["source-serif-pro-light"],
         sourceserifvariableroman:["source-serif-variable-roman"]
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.5)',
       }
     },
   },
