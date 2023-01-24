@@ -1,6 +1,8 @@
 import linie from '../../media/linie-chenar-jum.png'
 import poza from './media/poza_50.png'
 import creative from './media/creative-area-logo.png'
+import Carousel from '../../components/Carousel/Carousel';
+import { CarouselData } from './CarouselData';
 
 function PsihozonePage() 
 {
@@ -69,7 +71,7 @@ function PsihozonePage()
             <div className="font-sourceserifvariableroman text-2xl text font-semibold">Tematici</div>
             <img src={linie} alt="linie" className="w-16 mb-6"/>
 
-            <ul className="font-sourceserifvariableroman mx-auto p-4 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
+            <ul className="font-sourceserifvariableroman mx-auto mb-20 p-4 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
                 <li>Ce este creativitatea?</li>
                 <li>De ce avem nevoie de creativitate?</li>
                 <li>Prejudecăți despre creativitate și blocaje ale creativității</li>
@@ -78,7 +80,8 @@ function PsihozonePage()
                 <li>Insight-ul creativ; Momentele "AHA!"</li>
             </ul>
 
-            
+            <Carousel items={CarouselData}></Carousel>
+
         </div>
     </div>;
 }
