@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.f861d14b.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.e1a4e4bc.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.59697111.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.94d910ca.js",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.1ac0c22bae3cad6a14b9.png",
     "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.3f65f0b07749af03e9be.png",
@@ -25,12 +25,13 @@
     "static/media/Museo_Slab_300.otf": "/web-app-psihoterapie/static/media/Museo_Slab_300.c4a6c35f6598df781c24.otf",
     "static/media/Museo_Slab_900.otf": "/web-app-psihoterapie/static/media/Museo_Slab_900.dba106fd30e49723b78a.otf",
     "static/media/Museo_Slab_100.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100.bb96d7ebccf034466a7b.otf",
+    "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.f861d14b.css.map": "/web-app-psihoterapie/static/css/main.f861d14b.css.map",
-    "main.e1a4e4bc.js.map": "/web-app-psihoterapie/static/js/main.e1a4e4bc.js.map"
+    "main.59697111.css.map": "/web-app-psihoterapie/static/css/main.59697111.css.map",
+    "main.94d910ca.js.map": "/web-app-psihoterapie/static/js/main.94d910ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.f861d14b.css",
-    "static/js/main.e1a4e4bc.js"
+    "static/css/main.59697111.css",
+    "static/js/main.94d910ca.js"
   ]
 }
