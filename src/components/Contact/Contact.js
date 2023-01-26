@@ -1,3 +1,5 @@
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import telefon from './media/phone.png'
 import wapp from './media/wapp.png'
 import locatie from './media/locatie.png'
@@ -5,7 +7,8 @@ import mail from './media/mail.png'
 
 function Contact() 
 {
-    return <div className="bg-ana-light-purple relative bottom-0 flex flex-col"> 
+    let current_url = useLocation().pathname;
+    return <div className={"relative bottom-0 flex flex-col "+ (current_url === "/psihozone" ? "bg-ana-blue":"bg-ana-light-purple")}> 
     <div className="font-sourceserifvariableroman md:text-xl text-white text-center mt-1">Contact</div>
     <div className="flex flex-row text-center pl-[18%] md:pl-[44%]">
         <img className="w-4 mr-2" src={telefon} alt="telefon"/>

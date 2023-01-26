@@ -3,6 +3,7 @@ import poza from './media/poza_50.png'
 import creative from './media/creative-area-logo.png'
 import CarouselPsihozone from '../../components/CarouselPsihozone/CarouselPsihozone.js';
 import { CarouselData } from './CarouselData';
+import Contact from '../../components/Contact/Contact';
 
 
 function PsihozonePage() 
@@ -72,7 +73,7 @@ function PsihozonePage()
             <div className="font-sourceserifvariableroman text-2xl text font-semibold">Tematici</div>
             <img src={linie} alt="linie" className="w-16 mb-6"/>
 
-            <ul className="font-sourceserifvariableroman mx-auto p-4 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
+            <ul className="font-sourceserifvariableroman mx-auto p-4 mb-5 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
                 <li>Ce este creativitatea?</li>
                 <li>De ce avem nevoie de creativitate?</li>
                 <li>Prejudecăți despre creativitate și blocaje ale creativității</li>
@@ -82,9 +83,12 @@ function PsihozonePage()
             </ul>
         </div>
 
+    <div className="mb-11">
         <CarouselPsihozone items={CarouselData}></CarouselPsihozone>
+    </div>    
 
-        
+    <Contact/>
+
     </div>;
 }
 
