@@ -9,6 +9,7 @@ module.exports = {
         'ana-purple': '#A280B5',
         'ana-light-purple': '#bca3cb',
         'ana-blue':'#2596be',
+        'ana-light-blue':'#beeaea'
       },
       fontFamily: {
         museoslab100:["museo-slab-100"],

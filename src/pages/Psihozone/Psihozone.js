@@ -1,8 +1,9 @@
 import linie from '../../media/linie-chenar-jum.png'
 import poza from './media/poza_50.png'
 import creative from './media/creative-area-logo.png'
-import Carousel from '../../components/Carousel/Carousel';
+import CarouselPsihozone from '../../components/CarouselPsihozone/CarouselPsihozone.js';
 import { CarouselData } from './CarouselData';
+
 
 function PsihozonePage() 
 {
@@ -32,8 +33,8 @@ function PsihozonePage()
             <div className="text-2xl text-ana-blue font-sourceserifvariableroman text-center">Creative Area</div>
 
             <div className="md:flex md:items-center my-3 md:ml-6">
-                <img src={creative} alt="linie" className="mx-auto m-3 md:m-0"/>
-                <div className="md:mx-12 p-3 font-sourceserifvariableroman text-xl bg-amber-200 text-zinc-800 rounded-lg text-justify">Creativitatea este o trăsatură umană fără de care nu am fi putut evolua ca specie. Deși de multe ori o asociem cu artiști, scriitori sau inventatori, de fapt, în fiecare dintre noi există un potențial creativ înnăscut, gata să fie descoperit și explorat.</div>
+                <img src={creative} alt="creative area logo" className="mx-auto m-3 md:m-0"/>
+                <div className="md:mx-12 p-3 font-sourceserifvariableroman text-xl bg-amber-200 text-zinc-800 rounded-lg text-justify shadow-lg md:shadow-3xl">Creativitatea este o trăsatură umană fără de care nu am fi putut evolua ca specie. Deși de multe ori o asociem cu artiști, scriitori sau inventatori, de fapt, în fiecare dintre noi există un potențial creativ înnăscut, gata să fie descoperit și explorat.</div>
             </div>
 
             <div className="font-sourceserifvariableroman text-xl md:text-center my-5">Creativitatea poate fi folosită atât în salturi mari, cât și în salturi mici; de la invenții, descoperiri și produse inovatoare, până la rezolvarea unor probleme cotidiene, dinamizarea relațiilor cu ceilalți, creșterea stării de bine și aducerea noului într-o activitate pe care o desfășurăm.</div>
@@ -71,7 +72,7 @@ function PsihozonePage()
             <div className="font-sourceserifvariableroman text-2xl text font-semibold">Tematici</div>
             <img src={linie} alt="linie" className="w-16 mb-6"/>
 
-            <ul className="font-sourceserifvariableroman mx-auto mb-20 p-4 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
+            <ul className="font-sourceserifvariableroman mx-auto p-4 bg-green-300 text-2xl rounded-lg shadow-lg md:shadow-3xl space-y-2 max-w-3xl">
                 <li>Ce este creativitatea?</li>
                 <li>De ce avem nevoie de creativitate?</li>
                 <li>Prejudecăți despre creativitate și blocaje ale creativității</li>
@@ -79,10 +80,11 @@ function PsihozonePage()
                 <li>Mai multe perspective (exerciții pentru gândirea "outside the box")</li>
                 <li>Insight-ul creativ; Momentele "AHA!"</li>
             </ul>
-
-            <Carousel items={CarouselData}></Carousel>
-
         </div>
+
+        <CarouselPsihozone items={CarouselData}></CarouselPsihozone>
+
+        
     </div>;
 }
 
