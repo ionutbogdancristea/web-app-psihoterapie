@@ -4,7 +4,7 @@ import AcasaPage from './pages/Acasa/Acasa.js';
 import DespreMinePage from './pages/DespreMine/DespreMine';
 import PsihozonePage from './pages/Psihozone/Psihozone';
 import ServiciiPage from './pages/Servicii/Servicii';
-import ContactPage from './pages/Contact';
+import ContactPage from './pages/Contact/Contact';
 import NavBar from './components/NavBar/NavBar.js';
 
 function App() {

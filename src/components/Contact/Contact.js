@@ -1,9 +1,9 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import telefon from './media/phone.png'
-import wapp from './media/wapp.png'
-import locatie from './media/locatie.png'
-import mail from './media/mail.png'
+import telefon from '../../media/buton-telefon.png'
+import wapp from '../../media/buton-telegram.png'
+import locatie from '../../media/buton-locatie.png'
+import mail from '../../media/buton-email.png'
 
 function Contact() 
 {
