@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import AcasaPage from './pages/Acasa/Acasa.js';
-// import BlogPage from './pages/Blog';
+import BlogPage from './pages/Blog';
 import DespreMinePage from './pages/DespreMine/DespreMine';
 import PsihozonePage from './pages/Psihozone/Psihozone';
 import ServiciiPage from './pages/Servicii/Servicii';
@@ -12,13 +12,14 @@ function App() {
     // current local domain: http://localhost:3000/
     <div>
       <NavBar/>
-        <Routes>
+      <Routes>
         <Route path='/' element={<AcasaPage/>}/>
         <Route path='/despre_mine' element={<DespreMinePage/>}/> 
         <Route path='/psihozone' element={<PsihozonePage/>}/>     
         <Route path='/servicii' element={<ServiciiPage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
-        </Routes>   
+        <Route path='/blog' element={<BlogPage/>}/>
+      </Routes>   
     </div>
       );
 }

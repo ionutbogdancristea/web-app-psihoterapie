@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import './noBlueHighlight.css'
 import chenar from './media/chenar-articole.png'
 import multe from './media/mai-mult.png'
@@ -15,9 +16,9 @@ function CarouselSlide({image, alt, text, title})
         <div className="font-sourceserifvariableroman text-sm justify-center">
           {text}
         </div>   
-        <a href="/" className="noBlueHighlight">
-        <img src={multe} className="mt-1" alt="mai mult"/>   
-        </a>
+        <Link to="/blog#final" className="noBlueHighlight">
+          <img src={multe} className="mt-1" alt="mai mult"/>   
+        </Link>
       </div>
       <img src={chenar} alt="chenar"></img>
   </li>;
