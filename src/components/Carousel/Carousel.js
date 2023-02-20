@@ -17,7 +17,8 @@ const Carousel = ({items}) => {
 
   const visibleItems = items
     .slice(currentIndex, currentIndex + 3)
-    .concat(items.slice(0, currentIndex + 3 - items.length));
+    .concat(items.slice(0, currentIndex + 3 - items.length))
+    .slice(0,3);
 
   return ( <div>
     {/* web version: */}
