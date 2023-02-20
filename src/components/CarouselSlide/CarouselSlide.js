@@ -4,8 +4,8 @@ import chenar from './media/chenar-articole.png'
 import multe from './media/mai-mult.png'
 import linie from '../../media/linie-chenar.png'
 
-function CarouselSlide({image, alt, text, title}) 
-{
+function CarouselSlide({image, alt, text, title, article_anchor}) 
+{   
     return <li className="relative">
       <div className="absolute m-10 mt-14">
         <img src={image} className="object-contain scale-150" alt={alt}/>
@@ -16,7 +16,7 @@ function CarouselSlide({image, alt, text, title})
         <div className="font-sourceserifvariableroman text-sm justify-center">
           {text}
         </div>   
-        <Link to="/blog#final" className="noBlueHighlight">
+        <Link to={`/blog#${article_anchor}`} className="noBlueHighlight">
           <img src={multe} className="mt-1" alt="mai mult"/>   
         </Link>
       </div>

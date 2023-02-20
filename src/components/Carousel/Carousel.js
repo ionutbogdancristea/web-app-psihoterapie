@@ -29,7 +29,7 @@ const Carousel = ({items}) => {
                   <div className="" key={index}> 
                       <div className={`flex flex-col md:flex-row justify-center items-center`}> 
                         <div className="flex flex-row space-x-4">
-                          <CarouselSlide image={item.image} alt={item.alt} text={item.text} title={item.title}/>
+                          <CarouselSlide image={item.image} alt={item.alt} text={item.text} title={item.title} article_anchor={item.article_anchor}/>
                         </div>
                       </div>
                   </div>               
@@ -48,7 +48,7 @@ const Carousel = ({items}) => {
                   <div className="" key={index}> 
                       <div className={`flex flex-col md:flex-row justify-center items-center`}> 
                         <div className={`flex flex-row space-x-4 ${index === currentIndex ? '':'hidden'}`}>
-                          <CarouselSlide image={item.image} alt={item.alt} text={item.textMobile} title={item.title}/>
+                          <CarouselSlide image={item.image} alt={item.alt} text={item.textMobile} title={item.title} article_anchor={item.article_anchor}/>
                         </div>
                       </div>
                   </div>               

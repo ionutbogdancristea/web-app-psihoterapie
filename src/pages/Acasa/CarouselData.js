@@ -1,28 +1,47 @@
 import poza1 from './media/carusel-poza-1.png'
 import poza2 from './media/carusel-poza-2.png'
-// import poza3 from './media/carusel-poza-3.png'
+import poza3 from './media/carusel-poza-3.png'
 import poza4 from './media/carusel-poza-4.png'
 
 export const CarouselData = [
     {
         image: poza1
         ,alt: "poza1"
-        ,text: "Barry B. Benson, an idealistic honey bee who has the ability to talk to humans, has recently graduated from college and is about to enter the hive's Honex Industries honey-making workforce with his best friend Adam Flayman. Barry is initially excited to join the workforce, but his ambitious, insubordinate attitude emerges upon discovering that his choice of job will never change once picked. Later, the two bees run into a group of Pollen Jocks, bees who collect pollen from flowers outside the hive, and they offer to take Barry with them if he is 'bee enough'. While on his first pollen-gathering expedition in New York City, Barry gets lost in"
-        ,textMobile: "Barry B. Benson, an idealistic honey bee who has the ability"
-        ,title: "Psihoterapia integrativă"
+        ,text: "Tu la ce te gândești când auzi fraze de genul: „Învață cum să-ți depășești teama de a vorbi în public în doar 30 de zile!”, „10 pași simpli pentru a scăpa de anxietate!” sau „Respectă aceste 5 reguli și vei dobândi corpul mult visat!”? Te simți convins sau privești formulări de genul cu o oarecare îndoială?"
+        ,textMobile: "Tu la ce te gândești când auzi fraze de genul: „Învață cum să-ți depășești teama de a vorbi în public în doar 30 de zile!”, „10 pași simpli pentru a scăpa de anxietate!”?"
+        ,title: "Bine și ușor"
+        ,article_anchor: "bine_si_usor"
     }
     ,{
         image: poza2
-        ,alt: "poza1"
-        ,text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        ,textMobile: "Barry later returns to express his gratitude to Vanessa, "
-        ,title: "Psihoterapia integrativă"
+        ,alt: "poza2"
+        ,text: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia."
+        ,textMobile: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia."
+        ,title: "Psihoterapia funcționează?"
+        ,article_anchor: "psihoterapia_functioneaza"
+    }
+    ,{
+        image: poza3
+        ,alt: "poza3"
+        ,text: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, când nu cunoaștem „regulile” și ca atare, ne jucăm așa cum ne place, așa cum ne vine, fără să ne preocupăm de alte detalii sau de ce cred alți oameni. Ne jucăm cu idei, transformăm obiecte simple în personaje magice și vedem lumea prin ochi curioși, joviali și sinceri."
+        ,textMobile: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, "
+        ,title: "Creativitatea, de la Zero la Nou - partea I"
+        ,article_anchor: "creativitatea_1"
     }
     ,{
         image: poza4
-        ,alt: "poza1"
-        ,text: "Twelve years before the start of the series, the Nine-Tails attacked Konohagakure destroying much of the village and taking many lives. The leader of the village, the Fourth Hokage, sacrificed his life to seal the Nine-Tails into a newborn, Naruto Uzumaki. Orphaned by the attack, Naruto was shunned by the villagers, who out of fear and anger, viewed him as the Nine-Tails itself."
-        ,textMobile: "Twelve years before the start of the series, the Nine-Tails "
-        ,title: "Psihoterapia integrativă"
+        ,alt: "poza4"
+        ,text: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește ulterior pentru a recunoaște anumite situații, probleme, fenomene, ființe și obiecte, apelând la experiența anterioară. De exemplu, dacă în prezent te-ar întreba cineva „cum deosebești un cățel de o pisică?” cel mai probabil ți s-ar părea o întrebare bizară, deoarece răspunsul este de la sine-înțeles, corect? Însă dacă ne întoarcem în trecut, pe vremea când erai bebeluș nu știai că acea ființă cu blană, bot lung și urechi lăsate era un cățel, mai târziu ai învățat să-l identifici pe baza unor trăsături și comportamente specifice și astfel s-a creat un model, "
+        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește"
+        ,title: "Creativitatea, de la Zero la Nou - partea a II-a"
+        ,article_anchor: "creativitatea_2"
+    }
+    ,{
+        image: poza2
+        ,alt: "poza2"
+        ,text: "Psihoterapia online este un concept apărut încă din anii 1990, (1,2) iar odată cu instalarea pandemiei de Covid-19 în 2020, aceasta a luat și mai multă amploare. În acel context în care întâlnirea față în față nu mai era posibilă, psihoterapeuții și clienții au fost nevoiți să îmbrățișeze tot mai mult ideea de psihoterapie online."
+        ,textMobile: "Psihoterapia online este un concept apărut încă din anii 1990, (1,2) iar odată cu instalarea pandemiei de Covid-19 în 2020, aceasta a luat și mai multă amploare."
+        ,title: "Psihoterapia online"
+        ,article_anchor: "psihoterapia_online"
     }
 ];
