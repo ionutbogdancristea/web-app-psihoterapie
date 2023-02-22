@@ -2,7 +2,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './noBlueHighlight.css'
 import chenar from './media/chenar-articole.png'
 import multe from './media/mai-mult.png'
-import linie from '../../media/linie-chenar.png'
+import linie from '../../media/linie-sus.png'
 
 function CarouselSlide({image, alt, text, title, article_anchor}) 
 {   
