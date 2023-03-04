@@ -2,8 +2,8 @@ import React,{useState} from 'react';
 import { useLocation } from 'react-router-dom';
 import './noBlueHighlight.css'
 
-import nume from './media/Ana-Maria-Sfirca.png';
-import titlu from './media/Psihoterapeut-integrativ.png';
+import nume from './media/Ana-Maria-Sfirca2.png';
+import titlu from './media/Psihoterapeut-integrativ2.png';
 import psihozone from './media/psihozone.png';
 
 import logo_ana from './media/AS.png';
@@ -46,9 +46,9 @@ export default function NavBar()
         <li className="flex justify-center ml-10 md:m-0">
           <a href="#/" className="flex flex-row items-center space-x-2">
             <img src={(current_url === "/psihozone" ? logo_psihozone: logo_ana)} className="w-7" alt="Main Logo"/>
-            <div className="flex flex-col">
-              <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-5/6 md:w-3/4" alt="Name"/>
-              {(current_url === "/psihozone" ? <></>:<img src={titlu} className="w-5/6 md:w-3/4" alt="Title"/>)}
+            <div className="flex flex-col space-y-2">
+              <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-4/5 md:w-3/4" alt="Name"/>
+              {(current_url === "/psihozone" ? <></>:<img src={titlu} className="w-4/6 ml-4 md:w-2/3 md:ml-2.5" alt="Title"/>)}
             </div>
           </a>
           {/* button for mobile only menu */}
