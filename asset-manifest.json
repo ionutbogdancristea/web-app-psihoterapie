@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.1140daf5.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.c887b9a5.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.a12a029b.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.b860a8a1.js",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.de7a0ab56e7d0726aec2.png",
     "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.3f65f0b07749af03e9be.png",
@@ -13,6 +13,7 @@
     "static/media/fundal-servicii.png": "/web-app-psihoterapie/static/media/fundal-servicii.cd5c226609a023f07314.png",
     "static/media/fundal.png": "/web-app-psihoterapie/static/media/fundal.96264940ea4e78ea2594.png",
     "static/media/Quicksand-Regular.otf": "/web-app-psihoterapie/static/media/Quicksand-Regular.dd4f0dd06e30259d7ab6.otf",
+    "static/media/Quicksand-Light.otf": "/web-app-psihoterapie/static/media/Quicksand-Light.2a624b6b5b1bf859bc61.otf",
     "static/media/ana.png": "/web-app-psihoterapie/static/media/ana.99869440b808e954fba7.png",
     "static/media/poza_50.png": "/web-app-psihoterapie/static/media/poza_50.a6218d490ed283eff96e.png",
     "static/media/chenar-mov.png": "/web-app-psihoterapie/static/media/chenar-mov.51971fba43bf656263ba.png",
@@ -30,11 +31,11 @@
     "static/media/Museo_Slab_100.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100.bb96d7ebccf034466a7b.otf",
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.1140daf5.css.map": "/web-app-psihoterapie/static/css/main.1140daf5.css.map",
-    "main.c887b9a5.js.map": "/web-app-psihoterapie/static/js/main.c887b9a5.js.map"
+    "main.a12a029b.css.map": "/web-app-psihoterapie/static/css/main.a12a029b.css.map",
+    "main.b860a8a1.js.map": "/web-app-psihoterapie/static/js/main.b860a8a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1140daf5.css",
-    "static/js/main.c887b9a5.js"
+    "static/css/main.a12a029b.css",
+    "static/js/main.b860a8a1.js"
   ]
 }
