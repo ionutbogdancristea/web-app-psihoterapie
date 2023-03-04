@@ -42,13 +42,13 @@ export default function NavBar()
   return (
       
 <nav className="bg-slate-100">
-      <ul className="md:flex md:flex-row p-3 items-center justify-center">
+      <ul className="md:flex md:flex-row p-3 items-center justify-center md:space-x-24">
         <li className="flex justify-center ml-10 md:m-0">
           <a href="#/" className="flex flex-row items-center space-x-2">
             <img src={(current_url === "/psihozone" ? logo_psihozone: logo_ana)} className="w-7" alt="Main Logo"/>
             <div className="flex flex-col space-y-2">
-              <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-4/5 md:w-3/4" alt="Name"/>
-              {(current_url === "/psihozone" ? <></>:<img src={titlu} className="w-4/6 ml-4 md:w-2/3 md:ml-2.5" alt="Title"/>)}
+              <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-4/5 md:w-2/3" alt="Name"/>
+              {(current_url === "/psihozone" ? <></>:<img src={titlu} className="w-4/6 ml-4 md:w-3/5 md:ml-2" alt="Title"/>)}
             </div>
           </a>
           {/* button for mobile only menu */}
