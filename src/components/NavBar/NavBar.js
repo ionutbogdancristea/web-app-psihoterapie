@@ -44,7 +44,7 @@ export default function NavBar()
 <nav className="bg-slate-100">
       <ul className="md:flex md:flex-row p-3 items-center justify-center md:space-x-24">
         <li className="flex justify-center ml-10 md:m-0">
-          <a href="#/" className="flex flex-row items-center space-x-2">
+          <a href="#/" className="flex flex-row items-center space-x-2 noBlueHighlight">
             <img src={(current_url === "/psihozone" ? logo_psihozone: logo_ana)} className="w-7" alt="Main Logo"/>
             <div className="flex flex-col space-y-2">
               <img src={(current_url === "/psihozone" ? psihozone: nume)} className="w-4/5 md:w-2/3" alt="Name"/>
