@@ -13,6 +13,10 @@ module.exports = {
         'ana-purple-blog':'#B4A0A2'
       },
       fontFamily: {
+        DancingScriptRegular:["DancingScript_Regular"],
+        QuicksandRegular:["Quicksand-Regular"],
+        QuicksandLight:["Quicksand-Light"],
+        KaushanScript_Regular:["KaushanScript_Regular"],
         museoslab100:["museo-slab-100"],
         museoslab100italic:["museo-slab-100-italic"],
         museoslab300:["museo-slab-300"],

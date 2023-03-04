@@ -50,3 +50,19 @@
     font-family: "museo-slab-1000-italic";
     src: url("../public/fonts/Museo_Slab_1000italic.otf");
   }
+@font-face {
+    font-family: "DancingScript_Regular";
+    src: url("../public/fonts/DancingScript_Regular.otf");
+  }
+@font-face {
+    font-family: "QuicksandRegular";
+    src: url("../public/fonts/Quicksand-Regular.otf");
+  }
+@font-face {
+    font-family: "KaushanScript_Regular";
+    src: url("../public/fonts/KaushanScript_Regular.otf");
+  }
+@font-face {
+    font-family: "QuicksandLight";
+    src: url("../public/fonts/Quicksand-Light.otf");
+  }

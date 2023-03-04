@@ -1,5 +1,5 @@
 import Contact from '../../components/Contact/Contact';
-import ana from './media/ana.png'
+import ana from '../../media/ana.png'
 import { text1, text2, text3, text4 } from './DespreMineData';
 import linie from '../../media/linie-chenar-jum.png';
 
