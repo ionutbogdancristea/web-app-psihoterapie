@@ -56,7 +56,7 @@ export default function NavBar()
             <img src={(current_url === "/psihozone" ? meniu_mobil_albastru : meniu_mobil_mov)} className="w-10" alt="Menu Icon"/>
           </button>
         </li>
-        <li className={"md:flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:pr-16 md:mx-14 mb-6 md:mb-0 mt-2 noBlueHighlight " + (state ? "hidden":"")}>
+        <li className={"md:flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-8 md:pr-16 md:mx-14 mb-6 md:mb-0 mt-4 noBlueHighlight " + (state ? "hidden":"")}>
           <a href="#/" className={"p-1 md:p-0 flex justify-center text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/" ? 'text-ana-purple border md:border-0':'')}>
               ACASĂ </a>
           <a href="#/despre_mine" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/despre_mine" ? 'text-ana-purple border md:border-0':'')}>
@@ -68,7 +68,7 @@ export default function NavBar()
           <a href="#/contact" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple border md:border-0':'')}>
             CONTACT </a>
         </li>
-        <li className={"md:flex flex-row items-center justify-center space-x-8 md:space-x-4 " + (state ? "hidden":"flex")}>
+        <li className={"md:flex flex-row items-center justify-center space-x-8 md:space-x-4 mb-3 md:mb-0 " + (state ? "hidden":"flex")}>
           <a href="https://www.facebook.com/anamariasfirca.psiholog/" className="" target="_blank" rel="noopener noreferrer">
             <img src={(current_url === "/psihozone" ? facebook_albastru : facebook_mov)} onMouseOver={e => (e.currentTarget.src = facebook_gri)} 
             onMouseOut={e => (current_url === "/psihozone" ? e.currentTarget.src = facebook_albastru : e.currentTarget.src = facebook_mov)} className="w-3/4" alt="Facebook logo"/>
