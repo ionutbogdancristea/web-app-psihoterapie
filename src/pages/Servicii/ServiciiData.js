@@ -7,25 +7,51 @@ export const ServiciiData = [
     {
         image: poza1
         ,alt: "poza1"
-        ,text: "Barry B. Benson, an idealistic honey bee who has the ability to talk to humans, has recently graduated from college and is about to enter the hive's Honex Industries honey-making workforce with his best friend Adam Flayman. Barry is initially excited to join the workforce, but his ambitious, insubordinate attitude emerges upon discovering that his choice of job will never change once picked. Later, the two bees run into a group of Pollen Jocks, bees who collect pollen from flowers outside the hive, and they offer to take Barry with them if he is 'bee enough'. While on his first pollen-gathering expedition in New York City, Barry gets lost in"
+        ,text: `Încercările vieții de zi cu zi, evenimentele marcante, pierderile sau relațiile conflictuale pot contribui la destabilizarea echilibrului nostru, atât intern, cât și extern. Când ne confruntăm cu o durere fizică, ne dăm seama că este nevoie să apelăm la ajutorul unui medic, pentru că ne dorim să scăpăm de acea stare de disconfort cât mai rapid. Dar oare procedăm la fel și atunci când durerea se manifestă la nivel psihic sau emoțional? De multe ori, auzim din partea celorlalți expresii de genul „trebuie să fii puternic” sau „trebuie să treci peste, asta-i viața”, fapt ce ne poate determina să ne mascăm și mai tare suferința și să trăim cu ea în tăcere. Nu este în regulă ca durerea să devină o normalitate! Atunci când simți că nu poți face față singur, apelează la ajutorul unui psihoterapeut!`
         ,title: "Psihoterapie individuală adulți"
     }
     ,{
         image: poza2
         ,alt: "poza2"
-        ,text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        ,title: "Psihoterapia individuală copii și adolescenți"
+        ,text: `Copilăria și adolescența reprezintă două perioade de dezvoltare esențiale, în funcție de
+        care vor fi influențate și modelate mai departe personalitatea și funcționalitatea persoanei în
+        plan psiho-socio-emoțional în viața de adult. Aceste perioade vin la pachet cu diverse cerințe,
+        așteptări și standarde din partea familiei, a mediului școlar sau social, iar uneori îndeplinirea
+        acestora îi poate copleși pe copii/adolescenți.
+        Cum aceștia nu și-au dezvoltat încă ori și-au dezvoltat doar parțial abilitățile decizionale, de
+        înțelegere și de gestionare a emoțiilor, de relaționare și de a face față stresului și frustrării;
+        îngrijorările, suferințele și nevoile lor ies la iveală prin diverse comportamente, gesturi și
+        reacții, care de multe ori primesc din partea celor din jur etichete ca: „obraznic”, „dificil”,
+        „lipsit de educație” sau, dimpotrivă, „foarte cuminte”, „aiurit/visător” sau „rușinos”. În
+        realitate însă, aceste comportamente ar putea fi indicatori ai unei suferințe emoționale. În
+        cadrul psihoterapiei cu adolescenții și în special cu copiii, este important ca părinții să
+        colaboreze cu psihoterapeutul, favorizând astfel succesul psihoterapiei, precum și menținerea
+        progreselor.`
+        ,title: "Psihoterapie individuală copii și adolescenți"
     }
     ,{
         image: poza3
         ,alt: "poza3"
-        ,text: "Twelve years before the start of the series, the Nine-Tails attacked Konohagakure destroying much of the village and taking many lives. The leader of the village, the Fourth Hokage, sacrificed his life to seal the Nine-Tails into a newborn, Naruto Uzumaki. Orphaned by the attack, Naruto was shunned by the villagers, who out of fear and anger, viewed him as the Nine-Tails itself."
-        ,title: "Psihoterapia integrativă"
+        ,text: `Nevoia de relaționare este inerent umană. Apartenența la un grup într-un cadru bazat
+        pe încredere, sprjin, acceptare și empatie, atât în relația psiholog – client, cât și client –
+        membrii grupului, poate avea efecte benefice asupra stării de bine și a stimei de sine.
+        În cadrul atelierelor de dezvoltare personală și psihoeducație vom aborda subiecte precum
+        creativitatea, emoțiile, motivația, gândirea critică, relaționarea, precum și alte teme de interes
+        pentru cei mai mici și mai mari. De asemenea, ne dorim ca experiența să fie una cât mai
+        plăcută, interesantă și interactivă, astfel, suntem deschiși să vă ascultăm curiozitățile și să
+        punem în aplicare și ideile voastre de joc. Așa că hai la primul nostru atelier – Creative Area!`
+        ,title: "Ateliere de dezvoltare personală de grup pentru copii și adolescenți"
     }
     ,{
         image: poza4
         ,alt: "poza4"
-        ,text: "Twelve years before the start of the series, the Nine-Tails attacked Konohagakure destroying much of the village and taking many lives. The leader of the village, the Fourth Hokage, sacrificed his life to seal the Nine-Tails into a newborn, Naruto Uzumaki. Orphaned by the attack, Naruto was shunned by the villagers, who out of fear and anger, viewed him as the Nine-Tails itself."
-        ,title: "Psihoterapia integrativă"
+        ,text: `Psihoterapia online poate fi la fel de eficientă ca cea față în față, conform mai multor
+        studii din domeniu. Principalul avantaj este cel legat de economisirea timpului, consultațiile
+        putând fi făcute din confortul propriei case. De asemenea, dacă te afli în deplasare, nu mai
+        este necesară amânarea psihoterapiei, desigur, caz valabil atunci când există posibilitatea de a
+        avea intimitate și de a te afla într-o cameră ferită de zgomote sau alți factori externi care te-ar
+        putea distrage. Dacă ești curios să vezi cum se desfășoară psihoterapia online, atunci te aștept
+        la o primă ședință!`
+        ,title: "Psihoterapie online adulți"
     }
 ];
