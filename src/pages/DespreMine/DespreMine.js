@@ -8,7 +8,7 @@ function DespreMinePage()
     return <div className="bg-[url('/src/pages/DespreMine/media/fundal-despre-mine.jpg')] bg-no-repeat bg-cover">
         <div className="p-14 md:px-80">
         <div className="flex md:flex-row-reverse flex-col">
-            <img src={ana} alt="profil" className="md:h-64 md:ml-6 mb-14"></img>
+            <img src={ana} alt="profil" className="md:h-64 md:ml-6 mb-6 mt-8"></img>
             <div>
                 <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular">
                     Să ne cunoaștem!
