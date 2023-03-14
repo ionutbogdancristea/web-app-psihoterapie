@@ -10,7 +10,7 @@ function DespreMinePage()
         <div className="flex md:flex-row-reverse flex-col">
             <img src={ana} alt="profil" className="md:h-64 md:ml-6 mb-6 mt-8"></img>
             <div>
-                <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular">
+                <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular drop-shadow-sm">
                     Să ne cunoaștem!
                 </div>
                 <img src={linie} alt="linie" className="pb-4"/>
@@ -24,7 +24,7 @@ function DespreMinePage()
             </div>
         </div> 
 
-            <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular mt-10">
+            <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular mt-10 drop-shadow-sm">
                 Viziunea mea
             </div>
             <img src={linie} alt="linie" className="pb-4"/>
@@ -32,7 +32,7 @@ function DespreMinePage()
                 {text3}
             </div>
 
-            <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular mt-12 md:mt-16">
+            <div className="text-3xl md:text-4xl text-ana-purple font-DancingScriptRegular mt-12 md:mt-16 drop-shadow-sm">
                 Misiunea mea
             </div>
             <img src={linie} alt="linie" className="pb-4"/>
