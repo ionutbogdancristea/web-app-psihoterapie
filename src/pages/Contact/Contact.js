@@ -1,5 +1,5 @@
 import poza_ana from './media/poza-ana.png'
-import buton_email from '../../media/buton-email.png'
+// import buton_email from '../../media/buton-email.png'
 // import buton_telefon from '../../media/buton-telefon.png'
 import buton_whatsapp from '../../media/buton-telegram.png'
 import buton_instagram from '../../media/buton-instagram.png'
