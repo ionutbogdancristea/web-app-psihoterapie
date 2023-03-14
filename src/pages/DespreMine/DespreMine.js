@@ -14,11 +14,11 @@ function DespreMinePage()
                     Să ne cunoaștem!
                 </div>
                 <img src={linie} alt="linie" className="pb-4"/>
-                <div className="ml-4 text-base">
+                <div className="ml-4 text-base text-gray-800">
                     {text1}
                 </div>
                 <div>&nbsp;</div>
-                <div className="ml-4 text-base">
+                <div className="ml-4 text-base text-gray-800">
                     {text2}
                 </div>
             </div>
@@ -28,7 +28,7 @@ function DespreMinePage()
                 Viziunea mea
             </div>
             <img src={linie} alt="linie" className="pb-4"/>
-            <div className="ml-4 mr-8 text-base">
+            <div className="ml-4 mr-8 text-base text-gray-800">
                 {text3}
             </div>
 
@@ -36,11 +36,11 @@ function DespreMinePage()
                 Misiunea mea
             </div>
             <img src={linie} alt="linie" className="pb-4"/>
-            <div className="ml-4 mr-8 text-base pb-6">
+            <div className="ml-4 mr-8 text-base pb-6 text-gray-800">
                 {text4}
             </div>
 
-            <div className="ml-4 mr-8 text-base pb-12">
+            <div className="ml-4 mr-8 text-base pb-12 text-gray-800">
                 {text5}
             </div>
         </div>
