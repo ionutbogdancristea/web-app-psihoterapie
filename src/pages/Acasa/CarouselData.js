@@ -1,7 +1,8 @@
-import poza1 from './media/carusel-poza-1.png'
-import poza2 from './media/carusel-poza-2.png'
-import poza3 from './media/carusel-poza-3.png'
-import poza4 from './media/carusel-poza-4.png'
+import poza1 from './media/BINE SI USOR.png'
+import poza2 from './media/poza-articol-Creativitate-partea-1.png'
+import poza3 from './media/bla bla.png'
+import poza4 from './media/PSIHOTERAPIA FUNCT.png'
+import poza5 from './media/poza-articol-Psihoterapia-online.png'
 
 export const CarouselData = [
     {
@@ -13,33 +14,33 @@ export const CarouselData = [
         ,article_anchor: "bine_si_usor"
     }
     ,{
-        image: poza2
-        ,alt: "poza2"
-        ,text: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia."
-        ,textMobile: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia."
+        image: poza4
+        ,alt: "poza4"
+        ,text: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia. Psihoterapia ar putea fi definită ca fiind un tratament care se "
+        ,textMobile: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este"
         ,title: "Psihoterapia funcționează?"
         ,article_anchor: "psihoterapia_functioneaza"
     }
     ,{
         image: poza3
         ,alt: "poza3"
-        ,text: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, când nu cunoaștem „regulile” și ca atare, ne jucăm așa cum ne place, așa cum ne vine, fără să ne preocupăm de alte detalii sau de ce cred alți oameni. Ne jucăm cu idei, transformăm obiecte simple în personaje magice și vedem lumea prin ochi curioși, joviali și sinceri."
-        ,textMobile: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, "
+        ,text: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, când nu cunoaștem „regulile” și ca "
+        ,textMobile: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc"
         ,title: "Creativitatea, de la Zero la Nou - partea I"
         ,article_anchor: "creativitatea_1"
     }
     ,{
-        image: poza4
-        ,alt: "poza4"
-        ,text: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește ulterior pentru a recunoaște anumite situații, probleme, fenomene, ființe și obiecte, apelând la experiența anterioară. De exemplu, dacă în prezent te-ar întreba cineva „cum deosebești un cățel de o pisică?” cel mai probabil ți s-ar părea o întrebare bizară, deoarece răspunsul este de la sine-înțeles, corect? Însă dacă ne întoarcem în trecut, pe vremea când erai bebeluș nu știai că acea ființă cu blană, bot lung și urechi lăsate era un cățel, mai târziu ai învățat să-l identifici pe baza unor trăsături și comportamente specifice și astfel s-a creat un model, "
-        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește"
+        image: poza2
+        ,alt: "poza2"
+        ,text: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește ulterior pentru a recunoaște"
+        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul"
         ,title: "Creativitatea, de la Zero la Nou - partea a II-a"
         ,article_anchor: "creativitatea_2"
     }
     ,{
-        image: poza2
-        ,alt: "poza2"
-        ,text: "Psihoterapia online este un concept apărut încă din anii 1990, (1,2) iar odată cu instalarea pandemiei de Covid-19 în 2020, aceasta a luat și mai multă amploare. În acel context în care întâlnirea față în față nu mai era posibilă, psihoterapeuții și clienții au fost nevoiți să îmbrățișeze tot mai mult ideea de psihoterapie online."
+        image: poza5
+        ,alt: "poza5"
+        ,text: "Psihoterapia online este un concept apărut încă din anii 1990, (1,2) iar odată cu instalarea pandemiei de Covid-19 în 2020, aceasta a luat și mai multă amploare. În acel context în care întâlnirea față în față nu mai era posibilă, psihoterapeuții și clienții au fost nevoiți să"
         ,textMobile: "Psihoterapia online este un concept apărut încă din anii 1990, (1,2) iar odată cu instalarea pandemiei de Covid-19 în 2020, aceasta a luat și mai multă amploare."
         ,title: "Psihoterapia online"
         ,article_anchor: "psihoterapia_online"
