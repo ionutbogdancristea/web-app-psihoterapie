@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.e083bcfd.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.89dfd144.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.cd5c1b07.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.85e66e93.js",
     "static/media/EBGaramond-VariableFont_wght.otf": "/web-app-psihoterapie/static/media/EBGaramond-VariableFont_wght.b4d8069b86082c0a0428.otf",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
-    "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.de7a0ab56e7d0726aec2.png",
-    "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.3f65f0b07749af03e9be.png",
+    "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.1ac0c22bae3cad6a14b9.png",
+    "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.26e0fb0d8700e6a1e18b.png",
     "static/media/foto-laptop-cu-flori.png": "/web-app-psihoterapie/static/media/foto-laptop-cu-flori.16f9f4b9bfda5beb4ab7.png",
     "static/media/poza-ana.png": "/web-app-psihoterapie/static/media/poza-ana.74dae58eed2e1979ece9.png",
-    "static/media/carusel-poza-4.png": "/web-app-psihoterapie/static/media/carusel-poza-4.e34f3145f6f690c7bda2.png",
     "static/media/KaushanScript_Regular.otf": "/web-app-psihoterapie/static/media/KaushanScript_Regular.9ee9e16204c2f7b66ab1.otf",
     "static/media/DancingScript_Regular.otf": "/web-app-psihoterapie/static/media/DancingScript_Regular.688b3de70e162f03b608.otf",
     "static/media/fundal-servicii.png": "/web-app-psihoterapie/static/media/fundal-servicii.cd5c226609a023f07314.png",
@@ -17,15 +16,20 @@
     "static/media/Quicksand-Light.otf": "/web-app-psihoterapie/static/media/Quicksand-Light.2a624b6b5b1bf859bc61.otf",
     "static/media/ana.png": "/web-app-psihoterapie/static/media/ana.99869440b808e954fba7.png",
     "static/media/poza_50.png": "/web-app-psihoterapie/static/media/poza_50.a6218d490ed283eff96e.png",
+    "static/media/PSIHOTERAPIA FUNCT.png": "/web-app-psihoterapie/static/media/PSIHOTERAPIA FUNCT.688c2bda69e7e276d897.png",
     "static/media/chenar-mov.png": "/web-app-psihoterapie/static/media/chenar-mov.51971fba43bf656263ba.png",
     "static/media/fundal-despre-mine.jpg": "/web-app-psihoterapie/static/media/fundal-despre-mine.d582f3236e7dbb1ab76f.jpg",
+    "static/media/bla bla.png": "/web-app-psihoterapie/static/media/bla bla.13a0219bdf87b2f46c66.png",
+    "static/media/BINE SI USOR.png": "/web-app-psihoterapie/static/media/BINE SI USOR.a94e9f0d5f67f182f0c4.png",
+    "static/media/poza-articol-Creativitate-partea-1.png": "/web-app-psihoterapie/static/media/poza-articol-Creativitate-partea-1.07a3c6d6ef68454da7e7.png",
+    "static/media/poza-articol-Psihoterapia-online.png": "/web-app-psihoterapie/static/media/poza-articol-Psihoterapia-online.6dd7a29ec62840a923f0.png",
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.e083bcfd.css.map": "/web-app-psihoterapie/static/css/main.e083bcfd.css.map",
-    "main.89dfd144.js.map": "/web-app-psihoterapie/static/js/main.89dfd144.js.map"
+    "main.cd5c1b07.css.map": "/web-app-psihoterapie/static/css/main.cd5c1b07.css.map",
+    "main.85e66e93.js.map": "/web-app-psihoterapie/static/js/main.85e66e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.e083bcfd.css",
-    "static/js/main.89dfd144.js"
+    "static/css/main.cd5c1b07.css",
+    "static/js/main.85e66e93.js"
   ]
 }
