@@ -13,45 +13,19 @@ export const ServiciiData = [
     ,{
         image: poza2
         ,alt: "poza2"
-        ,text: `Copilăria și adolescența reprezintă două perioade de dezvoltare esențiale, în funcție de
-        care vor fi influențate și modelate mai departe personalitatea și funcționalitatea persoanei în
-        plan psiho-socio-emoțional în viața de adult. Aceste perioade vin la pachet cu diverse cerințe,
-        așteptări și standarde din partea familiei, a mediului școlar sau social, iar uneori îndeplinirea
-        acestora îi poate copleși pe copii/adolescenți.
-        Cum aceștia nu și-au dezvoltat încă ori și-au dezvoltat doar parțial abilitățile decizionale, de
-        înțelegere și de gestionare a emoțiilor, de relaționare și de a face față stresului și frustrării;
-        îngrijorările, suferințele și nevoile lor ies la iveală prin diverse comportamente, gesturi și
-        reacții, care de multe ori primesc din partea celor din jur etichete ca: „obraznic”, „dificil”,
-        „lipsit de educație” sau, dimpotrivă, „foarte cuminte”, „aiurit/visător” sau „rușinos”. În
-        realitate însă, aceste comportamente ar putea fi indicatori ai unei suferințe emoționale. În
-        cadrul psihoterapiei cu adolescenții și în special cu copiii, este important ca părinții să
-        colaboreze cu psihoterapeutul, favorizând astfel succesul psihoterapiei, precum și menținerea
-        progreselor.`
+        ,text: `Copilăria și adolescența reprezintă două perioade de dezvoltare esențiale, în funcție de care vor fi influențate și modelate mai departe personalitatea și funcționalitatea persoanei în plan psiho-socio-emoțional în viața de adult. Aceste perioade vin la pachet cu diverse cerințe, așteptări și standarde din partea familiei, a mediului școlar, iar uneori efortul de a ține pasul cu toate acestea îi poate copleși pe copii și adolescenți. Cum ei nu și-au dezvoltat încă ori și-au dezvoltat doar parțial abilitățile decizionale, de gestionare a emoțiilor, de relaționare și de a face față stresului și frustrării; îngrijorările, suferințele și nevoile lor ies la iveală prin diverse comportamente, gesturi și reacții, care de multe ori primesc din partea celor din jur etichete ca: „obraznic”, „dificil”, sau „foarte cuminte”, „rușinos”. În realitate însă, aceste comportamente ar putea fi indicatori ai unei suferințe emoționale. În cadrul psihoterapiei cu adolescenții și în special cu copiii, este important ca părinții să colaboreze cu psihoterapeutul, favorizând astfel succesul psihoterapiei, precum și menținerea progreselor.`
         ,title: "Psihoterapie individuală copii și adolescenți"
     }
     ,{
         image: poza3
         ,alt: "poza3"
-        ,text: `Nevoia de relaționare este inerent umană. Apartenența la un grup într-un cadru bazat
-        pe încredere, sprjin, acceptare și empatie, atât în relația psiholog – client, cât și client –
-        membrii grupului, poate avea efecte benefice asupra stării de bine și a stimei de sine.
-        În cadrul atelierelor de dezvoltare personală și psihoeducație vom aborda subiecte precum
-        creativitatea, emoțiile, motivația, gândirea critică, relaționarea, precum și alte teme de interes
-        pentru cei mai mici și mai mari. De asemenea, ne dorim ca experiența să fie una cât mai
-        plăcută, interesantă și interactivă, astfel, suntem deschiși să vă ascultăm curiozitățile și să
-        punem în aplicare și ideile voastre de joc. Așa că hai la primul nostru atelier – Creative Area!`
-        ,title: "Ateliere de dezvoltare personală de grup pentru copii și adolescenți"
+        ,text: `Nevoia de relaționare este inerent umană. Apartenența la un grup într-un cadru bazat pe încredere, sprjin, acceptare și empatie, atât în relația psiholog – persoană, cât și persoană –  membrii grupului, poate avea efecte benefice asupra stării de bine și a stimei de sine. În cadrul atelierelor de dezvoltare personală și psihoeducație vom aborda subiecte precum creativitatea, emoțiile, motivația, gândirea critică, relaționarea, precum și alte teme de interes pentru cei mai mici și mai mari. De asemenea, ne dorim ca experiența să fie una cât mai plăcută, interesantă și interactivă, astfel, suntem deschiși să vă ascultăm curiozitățile și să punem în aplicare și ideile voastre de activități. Așa că hai la atelierul Creative Area, unde vom învăța împreună cum să ne accesăm resursele creative!`
+        ,title: "Ateliere de dezvoltare personală copii și adolescenți"
     }
     ,{
         image: poza4
         ,alt: "poza4"
-        ,text: `Psihoterapia online poate fi la fel de eficientă ca cea față în față, conform mai multor
-        studii din domeniu. Principalul avantaj este cel legat de economisirea timpului, consultațiile
-        putând fi făcute din confortul propriei case. De asemenea, dacă te afli în deplasare, nu mai
-        este necesară amânarea psihoterapiei, desigur, caz valabil atunci când există posibilitatea de a
-        avea intimitate și de a te afla într-o cameră ferită de zgomote sau alți factori externi care te-ar
-        putea distrage. Dacă ești curios să vezi cum se desfășoară psihoterapia online, atunci te aștept
-        la o primă ședință!`
+        ,text: `Psihoterapia online poate fi la fel de eficientă ca cea față în față, conform mai multor studii din domeniu. Principalul avantaj este cel legat de economisirea timpului, consultațiile putând fi făcute din confortul propriei case. De asemenea, dacă te afli în deplasare, nu mai este necesară amânarea psihoterapiei, desigur, caz valabil atunci când există posibilitatea de a avea intimitate și de a te afla într-o cameră ferită de zgomote sau alți factori externi care te-ar putea distrage. Dacă ești curios să vezi cum se desfășoară psihoterapia online, atunci te aștept la o primă ședință!`
         ,title: "Psihoterapie online adulți"
     }
 ];

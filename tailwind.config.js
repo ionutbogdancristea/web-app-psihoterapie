@@ -10,27 +10,17 @@ module.exports = {
         'ana-light-purple': '#bca3cb',
         'ana-blue':'#2596be',
         'ana-light-blue':'#beeaea',
-        'ana-purple-blog':'#B4A0A2'
+        'ana-purple-blog':'#B4A0A2',
+        'ana-purple-servicii':'#a082b4'
       },
       fontFamily: {
         DancingScriptRegular:["DancingScript_Regular"],
         QuicksandRegular:["Quicksand-Regular"],
         QuicksandLight:["Quicksand-Light"],
         KaushanScript_Regular:["KaushanScript_Regular"],
-        museoslab100:["museo-slab-100"],
-        museoslab100italic:["museo-slab-100-italic"],
-        museoslab300:["museo-slab-300"],
-        museoslab300italic:["museo-slab-300-italic"],
-        museoslab500:["museo-slab-500"],
-        museoslab500italic:["museo-slab-500-italic"],
-        museoslab700:["museo-slab-700"],
-        museoslab700italic:["museo-slab-700-italic"],
-        museoslab900:["museo-slab-900"],
-        museoslab900italic:["museo-slab-900-italic"],
-        museoslab1000:["museo-slab-1000"],
-        museoslab1000italic:["museo-slab-1000-italic"],
         sourceserifprolight:["source-serif-pro-light"],
-        sourceserifvariableroman:["source-serif-variable-roman"]
+        sourceserifvariableroman:["source-serif-variable-roman"],
+        EBGaramond:["EBGaramond"]
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.5)',
