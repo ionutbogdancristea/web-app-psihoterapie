@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.55ca927d.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.dc06eb8c.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.e083bcfd.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.7345ab8a.js",
     "static/media/EBGaramond-VariableFont_wght.otf": "/web-app-psihoterapie/static/media/EBGaramond-VariableFont_wght.b4d8069b86082c0a0428.otf",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.de7a0ab56e7d0726aec2.png",
@@ -20,11 +20,11 @@
     "static/media/fundal-despre-mine.jpg": "/web-app-psihoterapie/static/media/fundal-despre-mine.d582f3236e7dbb1ab76f.jpg",
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.55ca927d.css.map": "/web-app-psihoterapie/static/css/main.55ca927d.css.map",
-    "main.dc06eb8c.js.map": "/web-app-psihoterapie/static/js/main.dc06eb8c.js.map"
+    "main.e083bcfd.css.map": "/web-app-psihoterapie/static/css/main.e083bcfd.css.map",
+    "main.7345ab8a.js.map": "/web-app-psihoterapie/static/js/main.7345ab8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.55ca927d.css",
-    "static/js/main.dc06eb8c.js"
+    "static/css/main.e083bcfd.css",
+    "static/js/main.7345ab8a.js"
   ]
 }
