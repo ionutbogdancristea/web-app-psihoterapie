@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.03d01fed.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.f324a93a.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.55ca927d.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.dc06eb8c.js",
+    "static/media/EBGaramond-VariableFont_wght.otf": "/web-app-psihoterapie/static/media/EBGaramond-VariableFont_wght.b4d8069b86082c0a0428.otf",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.de7a0ab56e7d0726aec2.png",
     "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.3f65f0b07749af03e9be.png",
@@ -17,25 +18,13 @@
     "static/media/poza_50.png": "/web-app-psihoterapie/static/media/poza_50.a6218d490ed283eff96e.png",
     "static/media/chenar-mov.png": "/web-app-psihoterapie/static/media/chenar-mov.51971fba43bf656263ba.png",
     "static/media/fundal-despre-mine.jpg": "/web-app-psihoterapie/static/media/fundal-despre-mine.d582f3236e7dbb1ab76f.jpg",
-    "static/media/Museo_Slab_500italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_500italic.6ad8e2407daeac2afac1.otf",
-    "static/media/Museo_Slab_500.otf": "/web-app-psihoterapie/static/media/Museo_Slab_500.12f308b8e0a39f50bc96.otf",
-    "static/media/Museo_Slab_1000italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_1000italic.929a3d9933bf328e0824.otf",
-    "static/media/Museo_Slab_300italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_300italic.87408e2ca2715a784d36.otf",
-    "static/media/Museo_Slab_700italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_700italic.abdb22af142fb0ce305e.otf",
-    "static/media/Museo_Slab_900italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_900italic.6b8bcfd04c7eeb9f03b4.otf",
-    "static/media/Museo_Slab_100italic.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100italic.6de000406a8123883591.otf",
-    "static/media/Museo_Slab_1000.otf": "/web-app-psihoterapie/static/media/Museo_Slab_1000.ebfa7a4264f50337c4b5.otf",
-    "static/media/Museo_Slab_700.otf": "/web-app-psihoterapie/static/media/Museo_Slab_700.f745e0894a995b99856e.otf",
-    "static/media/Museo_Slab_300.otf": "/web-app-psihoterapie/static/media/Museo_Slab_300.c4a6c35f6598df781c24.otf",
-    "static/media/Museo_Slab_900.otf": "/web-app-psihoterapie/static/media/Museo_Slab_900.dba106fd30e49723b78a.otf",
-    "static/media/Museo_Slab_100.otf": "/web-app-psihoterapie/static/media/Museo_Slab_100.bb96d7ebccf034466a7b.otf",
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.03d01fed.css.map": "/web-app-psihoterapie/static/css/main.03d01fed.css.map",
-    "main.f324a93a.js.map": "/web-app-psihoterapie/static/js/main.f324a93a.js.map"
+    "main.55ca927d.css.map": "/web-app-psihoterapie/static/css/main.55ca927d.css.map",
+    "main.dc06eb8c.js.map": "/web-app-psihoterapie/static/js/main.dc06eb8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d01fed.css",
-    "static/js/main.f324a93a.js"
+    "static/css/main.55ca927d.css",
+    "static/js/main.dc06eb8c.js"
   ]
 }
