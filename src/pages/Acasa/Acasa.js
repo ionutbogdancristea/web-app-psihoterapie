@@ -142,7 +142,7 @@ function AcasaPage()
                 <div className="text-left ml-[7%] md:ml-0 space-y-6 mb-3 md:mb-0 drop-shadow-lg">
                         <div className="text-xl md:text-4xl font-Quicksand_Regular text-white space-y-2">
                           <div className="text-2xl md:text-4xl">Psihoterapie individuală</div>
-                          <div>Ateliere de dezvoltare personală pentru copii și adolescenți</div>
+                          <div>Ateliere de dezvoltare personală</div>
                         </div>
                         <img className="w-24 hidden md:flex" src={linie} alt="view"></img>
                         <div className="hidden md:flex md:text-5xl font-DancingScriptRegular text-white">Cucerește-ți propria viață!</div>
