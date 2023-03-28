@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web-app-psihoterapie/static/css/main.cd5c1b07.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.a45293b1.js",
+    "main.css": "/web-app-psihoterapie/static/css/main.86ecde15.css",
+    "main.js": "/web-app-psihoterapie/static/js/main.893498d3.js",
     "static/media/EBGaramond-VariableFont_wght.otf": "/web-app-psihoterapie/static/media/EBGaramond-VariableFont_wght.b4d8069b86082c0a0428.otf",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.1ac0c22bae3cad6a14b9.png",
     "static/media/carusel-poza-1.png": "/web-app-psihoterapie/static/media/carusel-poza-1.26e0fb0d8700e6a1e18b.png",
     "static/media/foto-laptop-cu-flori.png": "/web-app-psihoterapie/static/media/foto-laptop-cu-flori.16f9f4b9bfda5beb4ab7.png",
     "static/media/poza-ana.png": "/web-app-psihoterapie/static/media/poza-ana.74dae58eed2e1979ece9.png",
+    "static/media/fundalpsihozone.jpg": "/web-app-psihoterapie/static/media/fundalpsihozone.5e4658e5b9707036f6b8.jpg",
     "static/media/KaushanScript_Regular.otf": "/web-app-psihoterapie/static/media/KaushanScript_Regular.9ee9e16204c2f7b66ab1.otf",
     "static/media/DancingScript_Regular.otf": "/web-app-psihoterapie/static/media/DancingScript_Regular.688b3de70e162f03b608.otf",
     "static/media/fundal-servicii.png": "/web-app-psihoterapie/static/media/fundal-servicii.cd5c226609a023f07314.png",
-    "static/media/fundal.png": "/web-app-psihoterapie/static/media/fundal.96264940ea4e78ea2594.png",
     "static/media/Quicksand-Regular.otf": "/web-app-psihoterapie/static/media/Quicksand-Regular.dd4f0dd06e30259d7ab6.otf",
     "static/media/Quicksand-Light.otf": "/web-app-psihoterapie/static/media/Quicksand-Light.2a624b6b5b1bf859bc61.otf",
     "static/media/ana.png": "/web-app-psihoterapie/static/media/ana.99869440b808e954fba7.png",
@@ -25,11 +25,11 @@
     "static/media/poza-articol-Psihoterapia-online.png": "/web-app-psihoterapie/static/media/poza-articol-Psihoterapia-online.6dd7a29ec62840a923f0.png",
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
-    "main.cd5c1b07.css.map": "/web-app-psihoterapie/static/css/main.cd5c1b07.css.map",
-    "main.a45293b1.js.map": "/web-app-psihoterapie/static/js/main.a45293b1.js.map"
+    "main.86ecde15.css.map": "/web-app-psihoterapie/static/css/main.86ecde15.css.map",
+    "main.893498d3.js.map": "/web-app-psihoterapie/static/js/main.893498d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5c1b07.css",
-    "static/js/main.a45293b1.js"
+    "static/css/main.86ecde15.css",
+    "static/js/main.893498d3.js"
   ]
 }
