@@ -1,14 +1,12 @@
 import linie from '../../media/linie-chenar-jum.png'
 import poza from './media/poza_50.png'
 import creative from './media/creative-area-logo.png'
-import CarouselPsihozone from '../../components/CarouselPsihozone/CarouselPsihozone.js';
-import { CarouselData } from './CarouselData';
 import Contact from '../../components/Contact/Contact';
 
 
 function PsihozonePage() 
 {
-    return <div className="bg-[url('/src/pages/Psihozone/media/fundal.png')] bg-no-repeat">
+    return <div className="bg-[url('/src/pages/Psihozone/media/fundalpsihozone.jpg')] bg-no-repeat">
         <div className="p-8">
             <div className="flex flex-col md:flex-row md:space-x-32 items-center justify-center mb-6">
                 <div className=''>
@@ -83,9 +81,6 @@ function PsihozonePage()
             </ul>
         </div>
 
-    <div className="mb-11">
-        <CarouselPsihozone items={CarouselData}></CarouselPsihozone>
-    </div>    
 
     <Contact/>
 
