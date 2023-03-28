@@ -22,7 +22,7 @@ function ContactPage()
                 </li>
                 <li className="flex flex-row space-x-4 text-xl">
                     <img src={buton_instagram} alt="instagram" className="object-contain drop-shadow-lg"/>
-                    <div className="text-gray-800 font-Quicksand_Regular">anamariasfirca_psihozone</div>
+                    <div className="text-gray-800 font-Quicksand_Regular">anasfirca_psihozone</div>
                 </li>
                 <li className="flex flex-row space-x-4 text-xl">
                     <img src={buton_facebook} alt="facebook" className="object-contain drop-shadow-lg"/>

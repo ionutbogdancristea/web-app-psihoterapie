@@ -1,7 +1,7 @@
-import poza1 from './media/carusel-poza-1.png'
-import poza2 from './media/carusel-poza-2.png'
-import poza3 from './media/carusel-poza-3.png'
-import poza4 from './media/foto-laptop-cu-flori.png'
+import poza1 from './media/1.png'
+import poza2 from './media/2.png'
+import poza3 from './media/3.png'
+import poza4 from './media/4.png'
 
 export const ServiciiData = [
     {

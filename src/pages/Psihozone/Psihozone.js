@@ -2,7 +2,7 @@ import linie from '../../media/linie-chenar-jum.png';
 import poza from './media/poza_50.png';
 import creative from './media/creative-area-logo.png';
 import Contact from '../../components/Contact/Contact';
-import punctulete from './media/punctulete.png'
+import punctulete from './media/tematica-final.png'
 
 
 function PsihozonePage() 
@@ -98,7 +98,7 @@ function PsihozonePage()
             </div>
         </div>
 
-        <img src={punctulete} alt="punctulete" className="mx-auto md:w-5/12 mb-14 px-2"/>
+        <img src={punctulete} alt="punctulete" className="mx-auto md:w-1/4 mb-14 px-2"/>
 
 
     <Contact/>
