@@ -8,7 +8,7 @@ import mail from '../../media/buton-email.png'
 function Contact() 
 {
     let current_url = useLocation().pathname;
-    return <div className={"relative bottom-0 flex flex-col "+ (current_url === "/psihozone" ? "bg-ana-blue":"bg-ana-light-purple")}> 
+    return <div className={"relative bottom-0 flex flex-col "+ (current_url === "/psihozone" ? "bg-psihozone-blue":"bg-ana-light-purple")}> 
     <div className="font-DancingScriptRegular text-3xl text-white text-center mt-3 mb-4 drop-shadow-lg">Contact</div>
     <ul className="space-y-2 mb-5">
         <li className="flex flex-row text-center pl-[10%] md:pl-[44%]">
