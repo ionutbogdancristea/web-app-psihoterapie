@@ -65,7 +65,7 @@ export default function NavBar()
             SERVICII </a>
           <a href="#/psihozone" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-blue active:text-blue-700 " + (current_url === "/psihozone" ? 'text-ana-blue border md:border-0':'')}>
             PSIHOZONE </a>
-          <a href="#/blog" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple border md:border-0':'')}>
+          <a href="#/blog" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/blog" ? 'text-ana-purple border md:border-0':'')}>
             BLOG </a>            
           <a href="#/contact" className={"p-1 md:p-0 flex justify-center decoration-wavy text-sm font-medium font-Quicksand_Regular text-gray-600 hover:text-ana-purple active:text-violet-700 " + (current_url === "/contact" ? 'text-ana-purple border md:border-0':'')}>
             CONTACT </a>
