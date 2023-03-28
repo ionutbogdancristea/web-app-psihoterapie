@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-app-psihoterapie/static/css/main.344151ec.css",
-    "main.js": "/web-app-psihoterapie/static/js/main.d909907f.js",
+    "main.js": "/web-app-psihoterapie/static/js/main.04313710.js",
     "static/media/EBGaramond-VariableFont_wght.otf": "/web-app-psihoterapie/static/media/EBGaramond-VariableFont_wght.b4d8069b86082c0a0428.otf",
     "static/media/carusel-poza-2.png": "/web-app-psihoterapie/static/media/carusel-poza-2.eb54aa1f25d624df5f3b.png",
     "static/media/carusel-poza-3.png": "/web-app-psihoterapie/static/media/carusel-poza-3.1ac0c22bae3cad6a14b9.png",
@@ -27,10 +27,10 @@
     "static/media/creative-area-logo.png": "/web-app-psihoterapie/static/media/creative-area-logo.57215102c122008f60d4.png",
     "index.html": "/web-app-psihoterapie/index.html",
     "main.344151ec.css.map": "/web-app-psihoterapie/static/css/main.344151ec.css.map",
-    "main.d909907f.js.map": "/web-app-psihoterapie/static/js/main.d909907f.js.map"
+    "main.04313710.js.map": "/web-app-psihoterapie/static/js/main.04313710.js.map"
   },
   "entrypoints": [
     "static/css/main.344151ec.css",
-    "static/js/main.d909907f.js"
+    "static/js/main.04313710.js"
   ]
 }
