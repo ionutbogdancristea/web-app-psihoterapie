@@ -71,7 +71,7 @@ function PsihozonePage()
             <img src={linie} alt="linie" className="w-16 mb-6"/>
             </div>
             
-            <div className="text-xl flex flex-col md:flex-row md:space-x-64 md:mx-72 my-6 space-y-4 md:space-y-0 justify-center mb-12">
+            <div className="text-xl flex flex-col md:flex-row md:space-x-52 md:mx-72 my-6 space-y-4 md:space-y-0 justify-center mb-12">
                 <div className="mx-16 md:mx-0 py-2 px-0 md:px-8 border-solid border-2 rounded-lg border-gray-200 shadow-lg md:shadow-3xl space-y-1">
                     <div className="font-semibold text-ana-blue text-center">Grupa A</div>
                     <div className="font-sourceserifvariableroman text-gray-800 text-center">7 - 10 ani</div>
@@ -88,7 +88,7 @@ function PsihozonePage()
                 </div>
             </div>
             
-            <div className="font-EBGaramond text-xl mb-4 md:mb-3 md:mx-80 text-gray-800">Număr participanți: 6 - 10 persoane/grupă</div>
+            <div className="font-EBGaramond text-xl mb-4 md:mb-3 md:mx-80 text-gray-800">Număr participanți: 6 - 8 persoane/grupă</div>
             <div className="font-EBGaramond text-xl mb-4 md:mb-3 md:mx-80 text-gray-800">Frecvență: o întâlnire durează 90 de minute, o dată pe săptămână</div>
             <div className="font-EBGaramond text-xl mb-4 md:mb-3 md:mx-80 text-gray-800">Durată: 6 ședințe</div>
             <div className="font-EBGaramond text-xl mb-4 md:mb-3 md:mx-80 text-gray-800">Înscrieri la: anamariasfirca.psiholog@gmail.com sau tel. +40771611430</div>
