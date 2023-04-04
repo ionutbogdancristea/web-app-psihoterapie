@@ -17,7 +17,7 @@ export const CarouselData = [
         image: poza4
         ,alt: "poza4"
         ,text: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este important să știm, mai întâi de toate, ce este psihoterapia. Psihoterapia ar putea fi definită ca fiind un tratament care se "
-        ,textMobile: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider că este"
+        ,textMobile: "Da, psihoterapia funcționează! Dar înainte de a oferi un răspuns mai cuprinzător la această întrebare, consider"
         ,title: "Psihoterapia funcționează?"
         ,article_anchor: "psihoterapia_functioneaza"
     }
@@ -33,7 +33,7 @@ export const CarouselData = [
         image: poza2
         ,alt: "poza2"
         ,text: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește ulterior pentru a recunoaște"
-        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din"
+        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele"
         ,title: "Creativitatea, de la Zero la Nou - II"
         ,article_anchor: "creativitatea_2"
     }
