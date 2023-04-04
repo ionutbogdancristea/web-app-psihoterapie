@@ -168,7 +168,7 @@ function AcasaPage()
                   nevoile, obiectivele și particularitățile fiecărui client. Prin urmare, ea este aplicabilă
                   oricărei vârste și majorității afecțiunilor și dificultăților psihologice (i.e. stres,
                   anxietate, depresie, traumă, adicții, tulburări comportamentale, tulburări alimentare,
-                  dificultăți de relaționare etc."/>
+                  dificultăți de relaționare etc.)"/>
 
           <ExtendableButton state_params={[state3, setState3]} toggle_param = {toggle3} 
           question="Cum se desfășoară prima sedință?"
@@ -197,7 +197,7 @@ function AcasaPage()
                   reușeste să surprindă cu acuratețe și să oglindească trăirile, emoțiile, nevoile și
                   gândurile persoanei; capacitatea psihoterapeutului de a-l ajuta pe client să-și acceseze
                   propriile resurse de schimbare, măsura în care clientul simte că psihoterapeutul îl
-                  înțelege și îl poate ghida într-o direcție cu sens, care este în acord cu nevoile sale etc."/>
+                  înțelege și îl poate ghida într-o direcție cu sens, care este în acord cu nevoile sale etc.)"/>
 
           <ExtendableButton state_params={[state6, setState6]} toggle_param = {toggle6} 
           question="Cum știu că funcționează?"
@@ -207,8 +207,8 @@ function AcasaPage()
           ,<li key="3" className="text-left">o mai bună recunoaștere, înțelegere și autoreglare a emoțiilor și stărilor afective;</li>
           ,<li key="4" className="text-left">diminuarea stresului, îmbunătățirea capacității de a face față stresului;</li>
           ,<li key="5" className="text-left">dezvoltarea capacității de a recunoaște și de a gestiona gândurile și comportamentele
-          disfuncționale (nesănătoase, care creează disconfort pentru tine sau pentru cei din jurul
-          tău);</li>
+           nesănătoase, care creează disconfort pentru tine sau pentru cei din jurul
+          tău;</li>
           ,<li key="6" className="text-left">clarificarea sentimentelor, stărilor și gândurilor confuze, care se află în contradicție:</li>
           ,<li key="7" className="text-left">creșterea sentimentul de speranță, de stare de bine;</li>
           ,<li key="8" className="text-left">înțelegerea propriului stil de atașament și cum influențează acesta relațiile cu ceilalți;</li>

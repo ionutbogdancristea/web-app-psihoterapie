@@ -7,7 +7,7 @@ export const ServiciiData = [
     {
         image: poza1
         ,alt: "poza1"
-        ,text: `Încercările vieții de zi cu zi, evenimentele marcante, pierderile sau relațiile conflictuale pot contribui la destabilizarea echilibrului nostru, atât intern, cât și extern. Când ne confruntăm cu o durere fizică, ne dăm seama că este nevoie să apelăm la ajutorul unui medic, pentru că ne dorim să scăpăm de acea stare de disconfort cât mai rapid. Dar oare procedăm la fel și atunci când durerea se manifestă la nivel psihic sau emoțional? De multe ori, auzim din partea celorlalți expresii de genul „trebuie să fii puternic” sau „trebuie să treci peste, asta-i viața”, fapt ce ne poate determina să ne mascăm și mai tare suferința și să trăim cu ea în tăcere. Nu este în regulă ca durerea să devină o normalitate! Atunci când simți că nu poți face față singur, apelează la ajutorul unui psihoterapeut!`
+        ,text: `Încercările vieții de zi cu zi, evenimentele marcante, pierderile sau relațiile conflictuale pot contribui la destabilizarea echilibrului nostru. Când ne confruntăm cu o durere fizică, ne dăm seama că este nevoie să apelăm la ajutorul unui medic, pentru că ne dorim să scăpăm de acea stare de disconfort cât mai rapid. Dar oare procedăm la fel și atunci când durerea se manifestă la nivel psihic sau emoțional? De multe ori, auzim din partea celorlalți expresii de genul „trebuie să fii puternic” sau „trebuie să treci peste, asta-i viața”, fapt ce ne poate determina să ne mascăm și mai tare suferința și să trăim cu ea în tăcere. Nu este în regulă ca durerea să devină o normalitate! Atunci când simți că nu poți face față singur, apelează la ajutorul unui psihoterapeut!`
         ,title: "Psihoterapie individuală adulți"
     }
     ,{
