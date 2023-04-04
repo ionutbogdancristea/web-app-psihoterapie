@@ -6,6 +6,7 @@ import buton_instagram from '../../media/buton-instagram.png'
 import buton_facebook from '../../media/buton-facebook.png'
 import buton_locatie from '../../media/buton-locatie.png'
 import { AddressMap } from './AddressMap'
+import calendar from './media/calendar-1.png'
 
 function ContactPage() 
 {
@@ -31,6 +32,10 @@ function ContactPage()
                 <li className="flex flex-row space-x-4 text-xl">
                     <img src={buton_locatie} alt="adresa" className="object-contain drop-shadow-lg ml-1"/>
                     <div className="text-gray-800 font-Quicksand_Regular">Corneliu Coposu 5, bl. 103,<br/> sc. 3, et. 2, ap. 53, București</div>
+                </li>
+                <li className="flex flex-row space-x-4 text-xl">
+                    <img src={calendar} alt="orar" className="object-contain drop-shadow-lg ml-1"/>
+                    <div className="text-gray-800 font-Quicksand_Regular">Program: L - V, 10:00 - 20:00 </div>
                 </li>
             </ul>
             <img src={poza_ana} alt="Ana" className="w-auto md:w-80 object-contain"/>

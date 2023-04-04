@@ -28,11 +28,11 @@ function PsihozonePage()
             <div className="font-EBGaramond text-xl mb-4 md:mx-80 text-gray-800">
                 Proiectul PsihoZone a luat naștere din dorința de a le oferi copiilor și adolescenților
                 posibilitatea să se întâlnească într-un spațiu sigur și prietenos, în care să poată învăța unii de la
-                ceilalți, să ia contact cu informații noi și de interes pentru ei și să aibă parte la experiențe
+                ceilalți, să ia contact cu informații noi și de interes pentru ei și să aibă parte de experiențe
                 benefice de învățare, de autocunoaștere și de explorare a propriilor resurse interioare.
             </div>
             
-            <div className="font-EBGaramond text-xl mb-4 md:mb-10 md:mx-80 text-gray-800">
+            <div className="font-EBGaramond text-xl mb-12 md:mb-10 md:mx-80 text-gray-800">
                 Sunt de părere că cea mai bună investiție este în viitor, astfel vreau să contribui la formarea
                 generațiilor următoare prin programe și ateliere de psihoeducație și dezvoltare personală, ce
                 au rolul de a facilita învățarea despre sine și despre mediul înconjurător, într-o manieră
