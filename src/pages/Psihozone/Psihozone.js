@@ -3,6 +3,7 @@ import poza from './media/poza_50.png';
 import creative from './media/creative-area-logo.png';
 import Contact from '../../components/Contact/Contact';
 import punctulete from './media/tematica-final.png'
+import punctulete2 from './media/punctulete2.png'
 
 
 function PsihozonePage() 
@@ -98,7 +99,8 @@ function PsihozonePage()
             </div>
         </div>
 
-        <img src={punctulete} alt="punctulete" className="mx-auto md:w-1/4 mb-14 px-2"/>
+        <img src={punctulete} alt="punctulete" className="mx-auto md:hidden mb-14 px-2"/>
+        <img src={punctulete2} alt="punctulete" className="mx-auto hidden md:flex md:w-2/5 mb-14"/>
 
 
     <Contact/>
