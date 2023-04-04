@@ -26,15 +26,15 @@ export const CarouselData = [
         ,alt: "poza3"
         ,text: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc în care ne petrecem des timpul atunci când suntem copii, când nu cunoaștem „regulile” și ca "
         ,textMobile: "Din punctul meu de vedere, creativitatea reprezintă o „zonă” insuficient explorată din creierul nostru. Un loc"
-        ,title: "Creativitatea, de la Zero la Nou - partea I"
+        ,title: "Creativitatea, de la Zero la Nou - I"
         ,article_anchor: "creativitatea_1"
     }
     ,{
         image: poza2
         ,alt: "poza2"
         ,text: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul înconjurător, pe care le memorează și le folosește ulterior pentru a recunoaște"
-        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din mediul"
-        ,title: "Creativitatea, de la Zero la Nou - partea a II-a"
+        ,textMobile: "Ei bine, în esență, mintea umană funcționează pe bază de modele. Creierul nostru creează modele din"
+        ,title: "Creativitatea, de la Zero la Nou - II"
         ,article_anchor: "creativitatea_2"
     }
     ,{

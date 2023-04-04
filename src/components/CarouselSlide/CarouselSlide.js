@@ -7,10 +7,10 @@ import linie from '../../media/linie-sus.png'
 function CarouselSlide({image, alt, text, title, article_anchor}) 
 {   
     return <li className="relative">
-      <div className="absolute m-10 md:mt-16">
+      <div className="absolute m-10 mt-6 md:mt-16">
         <img src={image} className="mb-3" alt={alt}/>
         <img src={linie} className="mx-auto mb-3" alt="linie la card articole"/>
-        <div className="mb-4 md:mb-7 md:text-2xl text-center"> 
+        <div className="mb-2 md:mb-7 md:text-2xl text-center"> 
           {title} 
         </div>
         <div className="text-sm justify-center md:mx-6 md:tracking-wide">
